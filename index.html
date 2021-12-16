@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Mulish:wght@200&family=Source+Sans+3:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/layout-sm.css">
+    <link rel="stylesheet" href="./css/style-sm.css">
 </head>
 <body>
      <!-- Header -->
@@ -12,12 +18,14 @@
         <!-- header-navbar -->
         <div class="header-nav-bar">
             <h1 class="nav-bar-brand">BrandName</h1>
-            <ul class="nav-bar-left">
-                <li class="nav-bar-items"><a class="nav-bar-link" href="#">Home</a></li>
-                <li class="nav-bar-items"><a class="nav-bar-link" href="#">Product</a></li>
-                <li class="nav-bar-items"><a class="nav-bar-link" href="#">Pricing</a></li>
-                <li class="nav-bar-items"><a class="nav-bar-link" href="#">Contact</a></li>
-            </ul>
+            <div class="nav-bar-left">
+                <ul>
+                    <li class="nav-bar-items"><a class="nav-bar-link" href="#">Home</a></li>
+                    <li class="nav-bar-items"><a class="nav-bar-link" href="#">Product</a></li>
+                    <li class="nav-bar-items"><a class="nav-bar-link" href="#">Pricing</a></li>
+                    <li class="nav-bar-items"><a class="nav-bar-link" href="#">Contact</a></li>
+                </ul>
+            </div>
             <div class="nav-bar-right">
                 <a href="#" class="login">Login</a>
                 <button class="member"><span class="member-text">Become a member</span><span class="member-arrow">&#8594;</span></button>
@@ -28,7 +36,7 @@
         <div class="header-center">
             <h1 class="center-headline">We Ensure A Best Insurance Service</p>
                 <h2 class="header-center-text">We know how large objects will act, but things on a small scale do not act that way</h2>
-                <div class="header-center-buttons">
+                <div class="header-center-buttons clearfix">
                     <button class="header-center-button-left">Get Quote Now</button>
                     <button class="header-center-button-right">Learn More</button>
                 </div>

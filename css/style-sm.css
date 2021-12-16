@@ -1,0 +1,34 @@
+/*header*/
+.header{
+    background-image: url('../images/header-cover.jpg');
+    background-size: auto;
+    background-position: 45% -48%;
+}
+.header-nav-bar{
+    background-color: white;
+}
+.nav-bar-brand{
+    padding:5% 0%;
+    font-size: 1.5rem;
+}
+.nav-bar-items{
+    list-style: none;
+    font-size:1.8rem;
+    color: #737373;
+}
+.nav-bar-link{
+    text-decoration: none;
+}
+.header-center{
+    color: white;
+}
+.center-headline{
+font-size: 2.5rem;
+text-align: center;
+}
+.header-center-text{
+font-size: 1.25rem;
+text-align: justify;
+}
+
+/*header*/
