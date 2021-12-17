@@ -299,27 +299,34 @@
 .footer-upper-button:hover{
   color:rgb(201, 201, 201);
 }
-.footer-middle{
-  padding-top:5%;
+.footer-middle-container{
+    width:60%;
+    margin:0 auto;
 }
 .footer-col-header{
-  font-size:1rem;
-  font-weight: bolder;
-  }
-  .footer-col-li{
-    font-size:0.9rem;
-    font-weight:200;
-  }
-  .footer-lower{
-    background-color: #FAFAFA;
-  }
-  .footer-lower-left-p{
-    font-weight: bold;
+margin-top:10%;
+margin-bottom:10%;
 }
-/*footer*/
-/*price*/
-.price-h2{
-  text-align:center;
+.footer-col-li img{
+    display: inline-block;
+    padding-top:5%;
+}
+.footer-col-li div{
+    display: inline-block;
+    margin-left:5%;
+}
+.footer-lower-container{
+    width: 60%;
+    margin: 0 auto;
+    padding-top:5%;
+    padding-bottom:10%;
+}
+.footer-lower-left-p{
+    margin-top:10%;
+    margin-bottom:10%;
+}
+.footer-lower-icons{
+    margin-right:5%;
 }
 /*price*/
 
