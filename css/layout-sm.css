@@ -189,56 +189,73 @@ margin:10% auto;
 }
 /*links*/
 /*pricing*/
-.pricing-container{
-    padding:10%
-}
 .pricing-header{
-    padding:5%
+    width: 50%;
+    margin: auto;
+    margin-top:10%;
+    margin-bottom:10%;
 }
 .pricing-header-h2{
-    margin: 5% auto;
+    margin: 5%;
 }
-.pricing-header-p{
-    margin: 5% auto;
+.pricing-body-container{
+    width: 75%;
+    margin:auto;
 }
-.pricing-body-item-side{
-    padding: 5% 15%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-  }
-  .pricing-body-item-middle{
-    padding: 5% 15%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-  }
-  .pricing-lower-side-h3{
-    margin: 10% auto;
-  }
-  .pricing-lower-middle-h3{
-    margin: 10% auto;
-  }
-  .price{
-      margin: 10% auto;
-      width: fit-content;
-  }
-  .price-h2{
-      float: left;
-
-  }
-  .price-right{
-      float:right;
-  }
-  .offers{
-      margin: 10% auto;
-  }
-  .pricing-button{
-display: block;
-margin: 5% auto;
-width: 100%;
-padding :10% 0%;
-border-radius: 2%;
-
-  }
+.pricing-body-container::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.pricing-body-item-side,.pricing-body-item-middle{
+    display: block;
+    border-radius: 2%;
+    margin:auto;
+    margin-top:5%;
+    margin-bottom:5%;
+    padding-top:5%;
+}
+.price-h2,.price-right{
+    display: inline-block;
+}
+.price{
+    width: fit-content;
+    margin:auto;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+.offers{
+    width: fit-content;
+    margin: auto;
+}
+.offer-item{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.pricing-body-item-middle{
+    padding-top:7%;
+}
+.pricing-button{
+    width:100%;
+    padding-top:5%;
+    padding-bottom:5%;
+    margin-top:25%;
+}
+.offers-h6{
+    display: inline-block;
+    width: fit-content;
+}
+.offer-tick{
+    display: inline-block;
+    border-radius: 100%;
+    background-color: cadetblue;
+}
+.offer-item{
+    margin: auto;
+}
+.offers{
+    margin:auto;
+}
 /*pricing*/
 /*contact*/
 .contact-upper{
