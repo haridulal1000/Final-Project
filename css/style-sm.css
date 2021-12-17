@@ -10,8 +10,8 @@
   background-color: white;
 }
 .nav-bar-brand {
-  padding: 5% 0%;
   font-size: 1.5rem;
+  font-weight: bolder;
 }
 .nav-bar-items {
   list-style: none;
@@ -242,3 +242,43 @@
 }
   
 /*contact*/
+/*footer*/
+.footer-upper{
+  background-color: #FAFAFA
+  ;
+}
+.footer-upper-h2{
+  font-size: 1.5rem;
+  font-weight:bolder;
+  margin-bottom: 10%;
+  line-height: 150%;
+}
+.footer-upper-p{
+  font-size: 0.9rem;
+}
+.footer-upper-button{
+  background-color: #23a6f0;
+  border:none;
+  border-radius:2%;
+  color:white;
+}
+.footer-upper-button:hover{
+  color:rgb(201, 201, 201);
+}
+.footer-col-header{
+  font-size:1rem;
+  font-weight: bolder;
+  }
+  .footer-col-li{
+    margin-top:10%;
+    margin-bottom:10%;
+    font-size:0.9rem;
+    font-weight:200;
+  }
+  .footer-lower{
+    background-color: #FAFAFA;
+  }
+  .footer-lower-left-p{
+    font-weight: bold;
+}
+/*footer*/
