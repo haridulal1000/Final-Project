@@ -5,6 +5,8 @@
     }
     .main{
         min-width: 300px;
+        width: 80%;
+        margin:auto;
     }
 /*header*/
 .header-nav-bar{
@@ -201,3 +203,33 @@ padding-bottom:2.5%;
 float:left;
 }
 /*links*/
+/*pricing*/
+.pricing-header{
+    width: 50%;
+    margin: auto;
+    margin-top:10%;
+    margin-bottom:10%;
+}
+.pricing-header-h2{
+    margin: 5%;
+}
+.pricing-body-container{
+    width: 75%;
+    margin:auto;
+}
+.pricing-body-container::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.pricing-body-item-side,.pricing-body-item-middle{
+    display: inline-block;
+    padding:5%;
+    width: 22.5%;
+    border-radius: 2%;
+}
+.pricing-body-item-middle{
+    padding-top:7%;
+}
+
+/*pricing*/
