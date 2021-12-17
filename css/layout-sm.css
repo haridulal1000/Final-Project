@@ -131,4 +131,84 @@ clear: both;
 display: block;
 margin:10% auto;
 }
+.links-lower-container{
+    width:80%;
+    margin:0 auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+}
+.links-lower-left{
+    margin-bottom:10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.links-lower-text{
+    float: left;
+    padding-top: 5%;
+    padding-bottom: 5%; 
+    border: none;
+}
+.links-lower-button{
+    float: left;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+.links-lower-right{
+    width: fit-content;
+    margin: 0 auto;
+}
 /*links*/
+/*pricing*/
+.pricing-container{
+    padding:10%
+}
+.pricing-header{
+    padding:5%
+}
+.pricing-header-h2{
+    margin: 5% auto;
+}
+.pricing-header-p{
+    margin: 5% auto;
+}
+.pricing-body-item-side{
+    padding: 5% 15%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  .pricing-body-item-middle{
+    padding: 5% 15%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  .pricing-lower-side-h3{
+    margin: 10% auto;
+  }
+  .pricing-lower-middle-h3{
+    margin: 10% auto;
+  }
+  .price{
+      margin: 10% auto;
+      width: fit-content;
+  }
+  .price-h2{
+      float: left;
+
+  }
+  .price-right{
+      float:right;
+  }
+  .offers{
+      margin: 10% auto;
+  }
+  .pricing-button{
+display: block;
+margin: 5% auto;
+width: 100%;
+padding :10% 0%;
+border-radius: 2%;
+
+  }
+/*pricing*/

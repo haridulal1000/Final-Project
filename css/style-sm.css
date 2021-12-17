@@ -42,7 +42,6 @@
   border: 1px solid white;
   color: white;
   font-weight: bold;
-
 }
 .header-center-button-left:hover {
   cursor: pointer;
@@ -57,53 +56,144 @@
 }
 
 .header-lower-item:hover {
-    cursor: pointer;
+  cursor: pointer;
   background-color: #23a6f0;
-  color:black;
-  }
+  color: black;
+}
 
 .header-lower-h3 {
   font-size: 1.5rem;
   font-weight: 900;
 }
-.header-lower-p{
-    font-size: 1.25rem;
+.header-lower-p {
+  font-size: 1.25rem;
 }
-
 
 /*header*/
 /*features*/
-.features-item-h5{
-    text-align: center;
-    font-size: 1rem;
-    font-weight: bold;
+.features-item-h5 {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
 }
-.feature-item-p{
-    text-align: center;
-    font-size: 0.9rem;
+.feature-item-p {
+  text-align: center;
+  font-size: 0.9rem;
 }
 /*features*/
 /*testimonials*/
-.testimonials{
-    background-color:  #FAFAFA;
-    ;
+.testimonials {
+  background-color: #fafafa;
 }
-.testimonial-header-h2{
-font-size: 2.5rem;
-text-align: center;
-margin: 5% auto 5% auto;
+.testimonial-header-h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 5% auto 5% auto;
 }
-.testimonial-header-p{
-    font-size: 0.9rem;
-    text-align: center;
-    margin: 5% auto 5% auto;
-    }
-    .testimonial-body-p{
-text-align: center;
-    }
+.testimonial-header-p {
+  font-size: 0.9rem;
+  text-align: center;
+  margin: 5% auto 5% auto;
+}
+.testimonial-body-p {
+  text-align: center;
+}
 /*testimonials*/
 /*links*/
-.links{
-    background-color:  #FAFAFA;
+.links {
+  background-color: #fafafa;
 }
+.links-lower {
+  background-image: linear-gradient(to right, #004788, #d51589);
+}
+.links-lower-h3 {
+  text-align: center;
+}
+.links-lower-left {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+}
+.links-lower-button {
+  border: none;
+  background-color: #23a6f0;
+  color: white;
+}
+.links-lower-button:hover {
+  color: rgb(206, 206, 206);
+}
+
+.links-lower-right {
+  border: 1px solid white;
+  border-radius: 2%;
+}
+
 /*links*/
+/*pricing*/
+.pricing-header-h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+.pricing-header-p {
+  font-size: 0.9rem;
+  text-align: center;
+  font-weight: bold;
+}
+.pricing-body-item-side {
+  border: 1px solid #23a6f0;
+}
+.pricing-lower-side-h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+.pricing-lower-middle-h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+.pricing-lower-side-h5 {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+.pricing-lower-middle-h5 {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+.price-h2 {
+  font-size: 2.5rem;
+  color: #23a6f0;
+}
+.price-dollar {
+  font-size: 1rem;
+  color: #23a6f0;
+  font-weight: bolder;
+}
+.time {
+  font-size: 1rem;
+  color: #23a6f0;
+  font-weight: bolder;
+}
+.offers-h6 {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+.pricing-button {
+  border: none;
+  background-color: #23a6f0;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+.pricing-button:hover {
+  color: rgb(197, 197, 197);
+}
+.pricing-body-item-middle{
+  background-color: #252B42;
+  color:white;
+  ;
+}
+/*pricing*/
