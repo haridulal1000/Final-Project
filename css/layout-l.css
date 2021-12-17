@@ -281,62 +281,55 @@ float:left;
 
 /*pricing*/
 /*contact*/
-.contact-lower{
-    position: relative;
-}
-.contact-upper-container{
-    width: 75%;
-    margin: auto;
-    padding-bottom: 25%;
-    padding-top: 5%;
-}
-.contact-upper-container::after{
-    content: '';
-    display: block;
-    clear: both;
-}
-.contact-upper-left{
-    width: 45%;
-    float: left;
-}
-.contact-upper-right{
-    width: 40%;
-    float: right;
-}
-.contact-upper-left-p{
-    margin-top:5%;
-}
 
-.contact-form-h3{
-    width: 60%;
-  }
-  .contact-form-header{
-    margin-top: 5%;
-    margin-bottom: 5%;
-  }
-  .contact-button{
-      display: block;
-  }
-  
-  .contact-form{
-      width:100%
-  }
-  .contact-text{
-    width: 100%;
-    margin: 2% auto;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
-    border: 1px solid #BDBDBD;
-    border-radius: 2%;
-  }
-  .contact-button{
-      width:100%;
-      padding-top:2.5%;
-      padding-bottom:2.5%;
-      border:none;
-      border-radius: 2%;
-
-  }
+/*pricing*/
+/*contact*/
+.contact-upper{
+    padding:10%;
+    padding-bottom:1%;
+    }
+    .contact-upper-left-p{
+        margin:5% auto;
+    }
+    .contact-upper-right{
+        margin-top:30%;
+        margin-bottom:30%;
+    }
+    .contact-lower{
+        padding-top: 50%;
+      }
+      .contact-lower-container{
+        padding: 10% 10%;
+      }
+      .contact-form-h3{
+        width: 50%;
+      }
+      .contact-form-header{
+          margin-top:10%;
+          margin-bottom:10%;
+      }
+      .contact-button{
+          display: block;
+      }
+      .contact-form{
+          width:100%
+      }
+      .contact-text{
+          width: 100%;
+          margin:5% auto;
+          padding-top:5%;
+          padding-bottom: 5%;
+          border: 1px solid #BDBDBD;
+          border-radius: 2%;
+      }
+      .contact-button{
+          width:100%;
+          padding-top:5%;
+          padding-bottom:5%;
+          border:none;
+          border-radius: 2%;
+    
+      }
 /*contact*/
 /*footer*/
 .footer-upper-container{

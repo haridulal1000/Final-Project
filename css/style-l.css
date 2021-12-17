@@ -238,34 +238,18 @@
   color: white;
 }
 .contact-lower{
-  /* background-color: white; */
+  background-image: url("../images/contact-lower-image.png");
+  padding-top: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .contact-lower-container{
-  width: 50%;
-  margin: auto;
-  background-image: url("../images/contact-lower-image.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 10% 5%;
-  z-index: 5;
-  margin-top:-15%;
-}
-.contact-lower-container::after{
-  content: '';
-  display: block;
-  clear: both;
-}
-.contact-form-container{
-  width: 75%;
   background-color: white;
-  float: right;
-  padding: 2%;
+  border-bottom: 5px solid #252B42;
 }
 .contact-form-h3{
   font-size: 2rem;
   font-weight: bolder;
-  text-align: center;
-  margin: auto;
 }
 .contact-text{
   background-color: #F9F9F9;
@@ -283,7 +267,6 @@
 .contact-button:hover{
   color: rgb(204, 204, 204);
 }
-  
 /*contact*/
 /*footer*/
 .footer-upper{
