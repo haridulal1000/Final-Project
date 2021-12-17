@@ -188,15 +188,14 @@ margin: 1%;
     padding-left:5%;
     padding-right:5%;
 }
-.links-lower-left{
-    float: left;
-}
-.links-lower-right{
-    float: right;
-    width:50%;
-}
+
+
 .links-lower-h3{
     width: 70%;
+    display: block;
+    margin: auto;
+    margin-bottom: 5%;
+    
 }
 .links-lower-button{
     padding-top:2.5%;
@@ -231,10 +230,29 @@ float:left;
     clear: both;
 }
 .pricing-body-item-side,.pricing-body-item-middle{
-    display: inline-block;
-    padding:5%;
-    width: 22.5%;
+    display: block;
     border-radius: 2%;
+    margin:auto;
+    margin-top:5%;
+    margin-bottom:5%;
+    padding-top:5%;
+}
+.price-h2,.price-right{
+    display: inline-block;
+}
+.price{
+    width: fit-content;
+    margin:auto;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+.offers{
+    width: fit-content;
+    margin: auto;
+}
+.offer-item{
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 .pricing-body-item-middle{
     padding-top:7%;

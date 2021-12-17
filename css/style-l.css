@@ -132,7 +132,7 @@
   background-image: linear-gradient(to right, #004788, #d51589);
 }
 .links-lower-h3 {
-  text-align: left;
+  text-align: center;
 }
 .links-lower-left {
   font-size: 1.5rem;
@@ -219,7 +219,7 @@
 .pricing-body-item-middle{
   background-color: #252B42;
   color:white;
-  ;
+  
 }
 /*pricing*/
 /*contact*/
