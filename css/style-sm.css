@@ -222,6 +222,8 @@
 .contact-lower{
   background-image: url("../images/contact-lower-image.png");
   padding-top: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .contact-lower-container{
   background-color: white;
@@ -289,3 +291,14 @@
     font-weight: bold;
 }
 /*footer*/
+input[type='button']:hover,button:hover{
+  cursor: pointer;
+}
+li:hover{
+  filter: brightness(0.5);
+  cursor: pointer;
+}
+img:hover{
+  filter:brightness(0.5);
+  cursor: pointer;
+}

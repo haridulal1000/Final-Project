@@ -9,8 +9,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Mulish:wght@200&family=Source+Sans+3:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/layout-xl.css">
-    <link rel="stylesheet" href="./css/style-xl.css">
+    <!-- <link rel="stylesheet" href="./css/layout-sm.css">
+    <link rel="stylesheet" href="./css/style-sm.css"> -->
+    <link rel="stylesheet" media='screen and (max-width: 1000px)' href="./css/style-sm.css"/>
+    <link rel="stylesheet" media='screen and (max-width: 1000px)' href="./css/layout-sm.css"/>
+    <link rel="stylesheet" media='screen and (min-width: 1000px)' href="./css/style-xl.css"/>
+    <link rel="stylesheet" media='screen and (min-width: 1000px)' href="./css/layout-xl.css"/>
 </head>
 <body class="main">
      <!-- Header -->
@@ -493,9 +497,7 @@
             <!-- contact-upper -->
             <div class="contact-upper">
                 <div class="contact-upper-container">
-                    
-                </div>
-                <!-- contact-upper-left -->
+                     <!-- contact-upper-left -->
                 <div class="contact-upper-left">
                     <h2 class="contact-upper-left-h2">
                         We have branched all over the world
@@ -514,39 +516,44 @@ Heisenberg, and Born.
                     <img src="./images/contact-upper-right-image.png" alt="contact-upper-right" class="contact-upper-right-image">
                 </div>
                 <!-- contact-upper-right -->
+                </div>
+               
             </div>
             <!-- contact-upper -->
             <!-- contact-lower -->
             <div class="contact-lower">
                 <div class="contact-lower-container">
-                            <!-- contact-form-header -->
-                            <div class="contact-form-header">
-                                <h3 class="contact-form-h3">Get A Free Quote Here</h3>
-                            </div>
-                            <!-- contact-form-header -->
-                            <!-- contact-form -->
-                            <div class="contact-form">
-                                <p class="contact-form-tag">Name*</p>
-                                <input type="text" class="contact-text" placeholder="Full Name*">
-                                <p class="contact-form-tag">Email*</p>
-                                <input type="text" class="contact-text" placeholder="example@gmail.com">
-                                <p class="contact-form-tag">Department*</p>
-                                 <select name="cars" id="cars" class="contact-text">
-                                 <option value="volvo">Please Select:</option>
-                                    <option value="saab">Saab</option>
-                                                <option value="mercedes">Mercedes</option>
-                                                         <option value="audi">Audi</option>
-                                                    </select>
-                                <p class="contact-form-tag">Time*</p>
-                                <select name="cars" id="cars" class="contact-text">
-                                    <option value="volvo">4:00 Available</option>
-                                       <option value="saab">Saab</option>
-                                                   <option value="mercedes">Mercedes</option>
-                                                            <option value="audi">Audi</option>
-                                                       </select>
-                                <input type="button" value="Book Appointment" class="contact-button">
-                            </div>
-                            <!-- contact-form -->
+                    <div class="contact-form-container">
+                         <!-- contact-form-header -->
+                         <div class="contact-form-header">
+                            <h3 class="contact-form-h3">Book Appointment</h3>
+                        </div>
+                        <!-- contact-form-header -->
+                        <!-- contact-form -->
+                        <div class="contact-form">
+                            <p class="contact-form-tag">Name*</p>
+                            <input type="text" class="contact-text" placeholder="Full Name*">
+                            <p class="contact-form-tag">Email*</p>
+                            <input type="text" class="contact-text" placeholder="example@gmail.com">
+                            <p class="contact-form-tag">Department*</p>
+                             <select name="cars" id="cars" class="contact-text">
+                             <option value="volvo">Please Select:</option>
+                                <option value="saab">Saab</option>
+                                            <option value="mercedes">Mercedes</option>
+                                                     <option value="audi">Audi</option>
+                                                </select>
+                            <p class="contact-form-tag">Time*</p>
+                            <select name="cars" id="cars" class="contact-text">
+                                <option value="volvo">4:00 Available</option>
+                                   <option value="saab">Saab</option>
+                                               <option value="mercedes">Mercedes</option>
+                                                        <option value="audi">Audi</option>
+                                                   </select>
+                            <input type="button" value="Book Appointment" class="contact-button">
+                        </div>
+                        <!-- contact-form -->
+                    </div>
+                           
                 </div>
             </div>
              <!-- contact-lower -->
@@ -577,7 +584,7 @@ Heisenberg, and Born.
         <!-- footer-upper -->
         <!-- footer-middle -->
         <div class="footer-middle">
-            <div class="footer-middle-container">
+            <div class="footer-middle-container clearfix">
                 <!-- footer-middle-col -->
                 <div class="footer-middle-col">
                     <h5 class="footer-col-header">Company Info</h5>
@@ -639,7 +646,7 @@ Heisenberg, and Born.
         <!-- footer-middle -->
         <!-- footer-lower -->
         <div class="footer-lower">
-            <div class="footer-lower-container">
+            <div class="footer-lower-container clearfix">
                 <!-- footer-lower-left -->
                 <div class="footer-lower-left">
                     <p class="footer-lower-left-p">

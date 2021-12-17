@@ -96,7 +96,14 @@ clear: both;
 .features-item{
     display: block;
     margin:0 auto;
+    width:50%;
     
+}
+.feature-item-h5{
+    margin:5%;
+}
+.feature-item-p{
+    margin:5%;
 }
 .features-container{
     padding-top: 15%;
@@ -132,8 +139,15 @@ clear: both;
     display: block;
     margin-left:auto;
     margin-right:auto;
+    border-radius:100%;
 
 }
+.testimonial-stars{
+    width:fit-content;
+    margin:auto;
+    margin-top:10%;
+}
+
 
 
 /*testimonial*/

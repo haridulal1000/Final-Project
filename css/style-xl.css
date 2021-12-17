@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Mulish:wght@200&family=Source+Sans+3:wght@300&display=swap');
+
 /*header*/
 .header {
   background-image: url("../images/header-cover.jpg");
@@ -95,6 +97,7 @@
   background-color: #fafafa;
 }
 .testimonial-header-h2 {
+  font-weight: bold;
   font-size: 2.5rem;
   text-align: center;
   margin: 5% auto 5% auto;
@@ -115,6 +118,9 @@
   text-align: center;
   width: 70%;
   margin: 15% auto;
+}
+.testimonial-image{
+  border-radius:100%;
 }
 /*testimonials*/
 /*links*/
@@ -231,16 +237,34 @@
   color: white;
 }
 .contact-lower{
-  background-image: url("../images/contact-lower-image.png");
-  padding-top: 50%;
+  /* background-color: white; */
 }
 .contact-lower-container{
+  width: 50%;
+  margin: auto;
+  background-image: url("../images/contact-lower-image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 10% 5%;
+  z-index: 5;
+  margin-top:-15%;
+}
+.contact-lower-container::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.contact-form-container{
+  width: 75%;
   background-color: white;
-  border-bottom: 5px solid #252B42;
+  float: right;
+  padding: 2%;
 }
 .contact-form-h3{
   font-size: 2rem;
   font-weight: bolder;
+  text-align: center;
+  margin: auto;
 }
 .contact-text{
   background-color: #F9F9F9;
@@ -262,34 +286,43 @@
 /*contact*/
 /*footer*/
 .footer-upper{
-  background-color: #FAFAFA
+  background-color: #FAFAFA;
+  padding-top:5%;
+  padding-bottom:5%;
   ;
 }
 .footer-upper-h2{
   font-size: 1.5rem;
   font-weight:bolder;
-  margin-bottom: 10%;
-  line-height: 150%;
+ margin-top:2%;
+ margin-bottom: 2%;
 }
 .footer-upper-p{
   font-size: 0.9rem;
+  margin-top:5%;
+  margin-bottom:5%;
 }
 .footer-upper-button{
   background-color: #23a6f0;
   border:none;
-  border-radius:2%;
+  border-radius:25% 25% 25% 25%/100% 100% 100% 100%;
   color:white;
+  margin-top:5%;
+  width: 10vw;
+  padding-top:5%;
+  padding-bottom:5%;
 }
 .footer-upper-button:hover{
   color:rgb(201, 201, 201);
+}
+.footer-middle{
+  padding-top:5%;
 }
 .footer-col-header{
   font-size:1rem;
   font-weight: bolder;
   }
   .footer-col-li{
-    margin-top:10%;
-    margin-bottom:10%;
     font-size:0.9rem;
     font-weight:200;
   }
@@ -305,3 +338,84 @@
   text-align:center;
 }
 /*price*/
+
+
+
+
+
+/*text*/
+p {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Mulish", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Mulish", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Mulish", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Mulish", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 1.5rem;
+}
+h5 {
+    font-family: "Montserrat", sans-serif;
+    font-family: "Mulish", sans-serif;
+    font-family: "Source Sans 3", sans-serif;
+  }
+  h6{
+    font-family: "Montserrat", sans-serif;
+  font-family: "Mulish", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
+  }
+li {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Mulish", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
+}
+button{
+    
+        font-family: 'Montserrat', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Source Sans 3', sans-serif;
+    
+}
+input{
+  font-family: 'Montserrat', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Source Sans 3', sans-serif;
+}
+select{
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Mulish', sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
+}
+li{
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Mulish', sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
+}
+a{
+  color:white;
+  text-decoration: none;
+}
+/*text*/
+
+input[type='button']:hover,button:hover{
+  cursor: pointer;
+}
+li:hover{
+  filter: brightness(0.5);
+  cursor: pointer;
+}
+img:hover{
+  filter:brightness(0.5);
+  cursor: pointer;
+}
