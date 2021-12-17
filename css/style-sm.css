@@ -212,4 +212,33 @@
   font-weight: bold;
   color: white;
 }
+.contact-lower{
+  background-image: url("../images/contact-lower-image.png");
+  padding-top: 50%;
+}
+.contact-lower-container{
+  background-color: white;
+  border-bottom: 5px solid #252B42;
+}
+.contact-form-h3{
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.contact-text{
+  background-color: #F9F9F9;
+  
+}
+.contact-form-tag{
+  font-size: 0.9rem;
+  font-weight: bolder;
+}
+.contact-button{
+  background-color: #23a6f0;
+  font-weight: bold;
+  color: white;
+}
+.contact-button:hover{
+  color: rgb(204, 204, 204);
+}
+  
 /*contact*/

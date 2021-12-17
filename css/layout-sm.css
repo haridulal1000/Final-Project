@@ -224,7 +224,39 @@ padding-bottom:1%;
     margin-top:30%;
     margin-bottom:30%;
 }
-.contact-lower-left{
-    display:block;
-}
+.contact-lower{
+    padding-top: 50%;
+  }
+  .contact-lower-container{
+    padding: 10% 10%;
+  }
+  .contact-form-h3{
+    width: 50%;
+  }
+  .contact-form-header{
+      margin-top:10%;
+      margin-bottom:10%;
+  }
+  .contact-button{
+      display: block;
+  }
+  .contact-form{
+      width:100%
+  }
+  .contact-text{
+      width: 100%;
+      margin:5% auto;
+      padding-top:5%;
+      padding-bottom: 5%;
+      border: 1px solid #BDBDBD;
+      border-radius: 2%;
+  }
+  .contact-button{
+      width:100%;
+      padding-top:5%;
+      padding-bottom:5%;
+      border:none;
+      border-radius: 2%;
+      
+  }
 /*contact*/
