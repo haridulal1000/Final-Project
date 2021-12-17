@@ -3,6 +3,9 @@ content: '';
 display: block;
 clear: both;
 }
+.main{
+    min-width: 300px;
+}
 /* header */
 .header{
     width: 100%;
