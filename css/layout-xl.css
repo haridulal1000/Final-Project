@@ -1,0 +1,86 @@
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+    }
+    .main{
+        min-width: 300px;
+    }
+/*header*/
+.header-nav-bar{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top:2%;
+    margin-bottom: 10%;
+}
+.header-nav-bar::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.small-nav-icons{
+    display:none;
+}
+.nav-bar-brand{
+    float:left;
+}
+.nav-bar-left{
+    float:left;
+    margin-left:10%;
+    width: 35%;
+}
+.nav-bar-right{
+    float:right;
+}
+.nav-bar-items{
+display: inline-block;
+margin: 1%;
+}
+.member{
+    padding-top:5%;
+    padding-bottom:5%;
+}
+.header-center{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center-headline{
+    margin-top:5%;
+    margin-bottom:5%;
+}
+.header-center-text{
+    margin-top:10%;
+    margin-bottom:10%;
+}
+.header-center-buttons{
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 20%;
+}
+.header-center-button-left,.header-center-button-right{
+    width: 10vw;
+    padding-top:5%;
+    padding-bottom:5%;
+    border-radius: 25% 25% 25% 25% / 100% 100% 100% 100% 
+}
+
+.header-lower::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.header-lower-container{
+    width: 75%;
+    margin:0 auto;
+    position: relative;
+    bottom: -10%;
+}
+.header-lower-item{
+    width:25%;
+    display:inline-block;
+    padding:2%;
+    margin-left:2.5%;
+}
+/*header*/
