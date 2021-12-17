@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Mulish:wght@200&family=Source+Sans+3:wght@300&display=swap');
 
-}
 /*header*/
 .header {
   background-image: url("../images/header-cover.jpg");
   background-size:cover;
+  padding-bottom: 5%;
 
   /* background-position: 45% -48%; */
   background-blend-mode: color-burn;

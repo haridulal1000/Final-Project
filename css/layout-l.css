@@ -5,7 +5,9 @@
     }
     .main{
         min-width: 300px;
-        width: 100%;
+        width: 80%;
+        margin:auto;
+        outline: 1px solid gray;
     }
 /*header*/
 .header-nav-bar{
@@ -73,15 +75,25 @@ margin: 1%;
     clear: both;
 }
 .header-lower-container{
-    width: 100%;
-    margin:0 auto;
+
 }
 .header-lower-item{
     display: block;
+    width: 50%;
+    margin:auto;
+    margin-top:5%;
+    margin-bottom:5%;
+    
 }
 .header-lower-items-image{
     display: block;
     margin-bottom:5%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.header-lower-h3,.header-lower-p{
+    margin:auto;
+    text-align: center;
 }
 /*header*/
 /*features*/
