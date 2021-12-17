@@ -212,3 +212,19 @@ border-radius: 2%;
 
   }
 /*pricing*/
+/*contact*/
+.contact-upper{
+padding:10%;
+padding-bottom:1%;
+}
+.contact-upper-left-p{
+    margin:5% auto;
+}
+.contact-upper-right{
+    margin-top:30%;
+    margin-bottom:30%;
+}
+.contact-lower-left{
+    display:block;
+}
+/*contact*/

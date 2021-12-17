@@ -197,3 +197,19 @@
   ;
 }
 /*pricing*/
+/*contact*/
+.contact-upper{
+  background-color: #252B42;
+  color: white;
+}
+.contact-upper-left-h2{
+  font-size: 2.5rem;
+  color: white;
+  font-weight: bold;
+}
+.contact-upper-left-p{
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: white;
+}
+/*contact*/
