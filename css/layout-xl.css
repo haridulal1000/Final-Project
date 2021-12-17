@@ -74,8 +74,6 @@ margin: 1%;
 .header-lower-container{
     width: 75%;
     margin:0 auto;
-    position: relative;
-    bottom: -10%;
 }
 .header-lower-item{
     width:25%;
@@ -83,4 +81,123 @@ margin: 1%;
     padding:2%;
     margin-left:2.5%;
 }
+.header-lower-items-image{
+    display: block;
+    margin-bottom:5%;
+}
 /*header*/
+/*features*/
+.features::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.features-container{
+    width: 75%;
+    margin:0 auto;
+    padding-top:5%;
+    padding-bottom:5%;
+}
+.features-item{
+    width:25%;
+    display:inline-block;
+    padding:2%;
+    margin-left:2.5%;
+}
+.feature-item-image{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+/*features*/
+/*testimonial*/
+.testimonals-header-container{
+    padding-top: 5%;
+
+}
+.testimonial-body::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.testimonial-body-container{
+    width: 75%;
+    margin:0 auto;
+    padding-top:5%;
+    padding-bottom:5%;
+}
+.testimonial-body-item{
+    width:25%;
+    display:inline-block;
+    padding:2%;
+    margin-left:2.5%;
+}
+.testimonial-image{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+}
+.testimonial-stars{
+    width: fit-content;
+    margin: auto;
+}
+/*testimonial/
+/*links*/
+.links-upper-container::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.links-upper-container{
+    width: 75%;
+    margin:0 auto;
+    padding-top:5%;
+    padding-bottom:5%;
+}
+.links-upper-item-container{
+    width:10%;
+    display:inline-block;
+    padding:0%;
+    margin-left:5.5%;
+}
+
+.links-lower::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.links-lower{
+    width: 75%;
+    margin:0 auto;
+    padding-top:2%;
+    padding-bottom:2%;
+    padding-left:5%;
+    padding-right:5%;
+}
+.links-lower-left{
+    float: left;
+}
+.links-lower-right{
+    float: right;
+    width:50%;
+}
+.links-lower-h3{
+    width: 70%;
+}
+.links-lower-button{
+    padding-top:2.5%;
+    padding-bottom:2.5%;
+    float:left;
+    width:28%;
+    }
+.links-lower-text{
+width:70%;
+padding-top:2.5%;
+padding-bottom:2.5%;
+float:left;
+}
+/*links*/

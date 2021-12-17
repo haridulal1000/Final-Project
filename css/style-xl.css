@@ -77,6 +77,9 @@
 
 /*header*/
 /*features*/
+.feature{
+  background-color: blue;
+}
 .features-item-h5 {
   text-align: center;
   font-size: 1rem;
@@ -110,6 +113,8 @@
 }
 .testimonial-body-p {
   text-align: center;
+  width: 70%;
+  margin: 15% auto;
 }
 /*testimonials*/
 /*links*/
@@ -120,7 +125,7 @@
   background-image: linear-gradient(to right, #004788, #d51589);
 }
 .links-lower-h3 {
-  text-align: center;
+  text-align: left;
 }
 .links-lower-left {
   font-size: 1.5rem;

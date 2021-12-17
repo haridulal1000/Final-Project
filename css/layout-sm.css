@@ -128,14 +128,14 @@ clear: both;
 .testimonial-body-text{
     margin: 10% auto;
 }
-.testimonial-stars img{
-    display: inline-block;
-    margin: auto;
+.testimonial-image{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+
 }
 
-.testimonial-stars{
-    margin: 10% auto;
-}
+
 /*testimonial*/
 /*links*/
 .links{
