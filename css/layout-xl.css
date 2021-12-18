@@ -28,6 +28,9 @@
 .nav-bar-brand{
     display: inline-block;
 }
+.nav-bar-brand:hover{
+    cursor: pointer;
+  }
 .nav-bar-left{
     display: inline-block;
     margin-left:10%;
@@ -54,6 +57,8 @@ margin: 1%;
     padding-right: 10%;
     padding-left: 10%;
     margin-left: 5%;
+    font-size: 0.8vw;
+    font-weight: bold;
 
 }
 .header-center{
@@ -207,16 +212,22 @@ margin: 1%;
     width: 70%;
 }
 .links-lower-button{
-    padding-top:2.5%;
-    padding-bottom:2.5%;
-    float:left;
-    width:28%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    float: left;
+    width: 28%;
+    height: 3.65vw;
+    font-size: 1.5vw;
+    border:none;
+    outline: white;
     }
 .links-lower-text{
 width:70%;
 padding-top:2.5%;
 padding-bottom:2.5%;
 float:left;
+height:1.96vw;
+font-size: 1.5vw;
 }
 /*links*/
 /*pricing*/
@@ -253,6 +264,22 @@ float:left;
     padding-bottom:5%;
     margin-top:25%;
 }
+.price-h2,.price-right{
+    display: inline-block;
+}
+.price{
+    width: fit-content;
+    margin: auto;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+.pricing-lower-middle-h5,.pricing-lower-side-h5{
+    margin-top:5%;
+}
+.pricing-lower-middle-h3,.pricing-lower-side-h3{
+    margin-top:5%;
+    margin-bottom:5%;
+}
 .offers-h6{
     display: inline-block;
     width: fit-content;
@@ -263,7 +290,9 @@ float:left;
     background-color: cadetblue;
 }
 .offer-item{
+    width: 100%;
     margin: auto;
+    margin-bottom: 5%;
 }
 .offers{
     margin:auto;
@@ -312,7 +341,7 @@ float:left;
       width:100%
   }
   .contact-text{
-    width: 100%;
+    width: 90%;
     margin: 2% auto;
     padding-top: 2.5%;
     padding-bottom: 2.5%;
@@ -320,11 +349,13 @@ float:left;
     border-radius: 2%;
   }
   .contact-button{
-      width:100%;
+      width:90%;
       padding-top:2.5%;
       padding-bottom:2.5%;
       border:none;
       border-radius: 2%;
+      margin-top: 5%;
+      margin-bottom: 5%;
 
   }
 /*contact*/

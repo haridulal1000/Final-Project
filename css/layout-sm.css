@@ -230,7 +230,7 @@ margin:10% auto;
 }
 .offer-item{
     padding-top: 5%;
-    padding-bottom: 5%;
+    padding-bottom: 10%;
 }
 .pricing-body-item-middle{
     padding-top:7%;
@@ -239,7 +239,7 @@ margin:10% auto;
     width:100%;
     padding-top:5%;
     padding-bottom:5%;
-    margin-top:25%;
+    margin-top:10%;
 }
 .offers-h6{
     display: inline-block;

@@ -59,6 +59,7 @@
         padding-left: 10%;
         margin-left: 5%;
         border-radius: 2%;
+        font-weight: bold;
     };
    
 
@@ -169,10 +170,12 @@ margin: 1%;
     padding-bottom:5%;
 }
 .testimonial-body-item{
-    width:25%;
-    display:inline-block;
+    width:100%;
+    display:block;
     padding:2%;
-    margin-left:2.5%;
+    margin-left:auto;
+    margin-top:5%;
+    margin-bottom: 5%;
 }
 .testimonial-image{
     display: block;
@@ -228,16 +231,20 @@ margin: 1%;
     
 }
 .links-lower-button{
-    padding-top:2.5%;
-    padding-bottom:2.5%;
-    float:left;
-    width:28%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    float: left;
+    width: 28%;
+    height: 5.7vw;
+    font-size: 1.5vw;
     }
 .links-lower-text{
-width:70%;
-padding-top:2.5%;
-padding-bottom:2.5%;
-float:left;
+    width: 70%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    float: left;
+    height: 2.4vw;
+    font-size: 1.5vw;
 }
 /*links*/
 /*pricing*/
@@ -282,7 +289,7 @@ float:left;
 }
 .offer-item{
     padding-top: 5%;
-    padding-bottom: 5%;
+    padding-bottom: 15%;
 }
 .pricing-body-item-middle{
     padding-top:7%;
@@ -291,7 +298,7 @@ float:left;
     width:100%;
     padding-top:5%;
     padding-bottom:5%;
-    margin-top:25%;
+    margin-top:10%;
 }
 .offers-h6{
     display: inline-block;

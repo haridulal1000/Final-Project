@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Mulish:wght@200&family=Source+Sans+3:wght@300&display=swap');
 
+input[type='button']:hover,button:hover{
+  cursor: pointer;
+}
+li:hover{
+  filter: brightness(0.5);
+  cursor: pointer;
+}
+img:hover{
+  filter:brightness(0.5);
+  cursor: pointer;
+}
+*{
+  font-family: "Montserrat", sans-serif;
+    font-family: "Mulish", sans-serif;
+    font-family: "Source Sans 3", sans-serif;
+}
 /*header*/
 .header {
   background-image: url("../images/header-cover.jpg");
@@ -14,6 +30,9 @@
   font-size: 1.5rem;
   font-weight: bolder;
   color: white;
+}
+.nav-bar-brand:hover{
+  cursor: pointer;
 }
 .nav-bar-items {
   list-style: none;
@@ -149,7 +168,6 @@
 }
 
 .links-lower-right {
-  border: 1px solid white;
   border-radius: 2%;
 }
 
@@ -306,6 +324,11 @@
 .footer-col-header{
 margin-top:10%;
 margin-bottom:10%;
+font-weight: bold;
+}
+.footer-col-li{
+padding-top:5%;
+padding-bottom:5%;
 }
 .footer-col-li img{
     display: inline-block;
@@ -399,14 +422,3 @@ a{
 }
 /*text*/
 
-input[type='button']:hover,button:hover{
-  cursor: pointer;
-}
-li:hover{
-  filter: brightness(0.5);
-  cursor: pointer;
-}
-img:hover{
-  filter:brightness(0.5);
-  cursor: pointer;
-}
