@@ -124,7 +124,7 @@ img:hover{
 }
 .testimonial-body-item{
   
-    border-radius: 2%;
+    border-radius: 10% 10% 10% 10% / 100% 100% 100% 100% %;
     border:1px solid rgb(192, 192, 192);
     background-color: white;
 
@@ -230,6 +230,7 @@ img:hover{
   color: white;
   font-size: 0.9rem;
   font-weight: bold;
+  border-radius: 2%;
 }
 .pricing-button:hover {
   color: rgb(197, 197, 197);

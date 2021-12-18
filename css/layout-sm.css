@@ -236,10 +236,12 @@ margin:10% auto;
     padding-top:7%;
 }
 .pricing-button{
-    width:100%;
+    width:80%;
+    margin-left: 10%;
     padding-top:5%;
     padding-bottom:5%;
     margin-top:10%;
+    margin-bottom:10% ;
 }
 .offers-h6{
     display: inline-block;
