@@ -1,7 +1,0 @@
-@media (max-width:1000px) {
-    @import url(./style-sm.css);
-}
-@media (min-width:1000px) {
-    @import url("./style-xl.css");
-    @import url("./layout-xl.css");
-}
