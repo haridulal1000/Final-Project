@@ -41,6 +41,10 @@ img:hover{
 }
 .nav-bar-link {
   text-decoration: none;
+  font-size: 3.2vw;
+}
+.login{
+  font-size: 3vw;
 }
 .member{
   background-color: #23a6f0;
@@ -311,11 +315,14 @@ img:hover{
   border-radius: 25% 25% 25% 25%/100% 100% 100% 100%;
   color: white;
   margin-top: 5%;
-  width: 20vw;
+  width: 30vw;
   padding-top: 5%;
   padding-bottom: 5%;
-  margin-left: 35%;
+  margin-left: auto;
   margin-right: auto;
+  font-size: 3vw;
+  display: block;
+
 }
 .footer-upper-button:hover{
   color:rgb(201, 201, 201);
