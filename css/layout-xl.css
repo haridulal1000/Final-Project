@@ -34,11 +34,11 @@
     width: 25%;
 }
 .nav-bar-right{
-    display:inline-block;
-    margin-right:0;
+    display: inline-block;
+    margin-right: 0;
     margin-left: auto;
-    width: 25%;
-    margin-left: 25%;
+    width: 23%;
+    margin-left: 28%;
 }
 .nav-bar-items{
 display: inline-block;
@@ -54,7 +54,7 @@ margin: 1%;
     padding-right: 10%;
     padding-left: 10%;
     margin-left: 5%;
-    bor
+
 }
 .header-center{
     width: 40%;
@@ -90,7 +90,7 @@ margin: 1%;
     width: 75%;
     margin: 0 auto;
     z-index: 5;
-    margin-top: -15%;
+    margin-top: -5%;
 }
 .header-lower-item{
         width: 25%;

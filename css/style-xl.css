@@ -6,6 +6,7 @@
 .header {
   background-image: url("../images/header-cover.jpg");
   background-size:cover;
+  padding-bottom:10%;
 
   /* background-position: 45% -48%; */
   background-blend-mode: color-burn;
