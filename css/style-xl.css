@@ -29,7 +29,7 @@
   background-color: #23a6f0;
   color:white;
   border:none;
-  border-radius: 2%;
+  border-radius: 10% 10% 10% 10% / 100% 100% 100% 100% ;
 }
 .header-center {
   color: white;
@@ -152,7 +152,7 @@
 
 .links-lower-right {
   
-  border-radius: 2%;
+  border-radius: 10% 10% 10% 10% / 100% 100% 100% 100% ;
 }
 
 /*links*/
@@ -214,6 +214,7 @@
   color: white;
   font-size: 0.9rem;
   font-weight: bold;
+  border-radius: 2%;
 }
 .pricing-button:hover {
   color: rgb(197, 197, 197);

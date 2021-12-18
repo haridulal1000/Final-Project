@@ -10,7 +10,7 @@
   background-color: white;
 }
 .nav-bar-brand {
-  font-size: 1.5rem;
+  font-size: 6vw;
   font-weight: bolder;
 }
 .nav-bar-brand:hover{
@@ -18,7 +18,7 @@
 }
 .nav-bar-items {
   list-style: none;
-  font-size: 1.8rem;
+  font-size: 5vw;
   color: #737373;
 }
 .nav-bar-link {
@@ -28,11 +28,11 @@
   color: white;
 }
 .center-headline {
-  font-size: 2.5rem;
+  font-size: 10vw;
   text-align: center;
 }
 .header-center-text {
-  font-size: 1.25rem;
+  font-size: 5vw;
   text-align: center;
 }
 .header-center-button-left,
@@ -65,23 +65,23 @@
 }
 
 .header-lower-h3 {
-  font-size: 1.5rem;
+  font-size: 6vw;
   font-weight: 900;
 }
 .header-lower-p {
-  font-size: 1.25rem;
+  font-size: 5vw;
 }
 
 /*header*/
 /*features*/
 .features-item-h5 {
   text-align: center;
-  font-size: 1rem;
+  font-size: 4vw;
   font-weight: bold;
 }
 .feature-item-p {
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 3.6vw;
 }
 /*features*/
 /*testimonials*/
@@ -89,7 +89,7 @@
   background-color: #fafafa;
 }
 .testimonial-header-h2 {
-  font-size: 2.5rem;
+  font-size: 6vw;
   text-align: center;
   margin: 5% auto 5% auto;
 }
@@ -101,7 +101,7 @@
 
 }
 .testimonial-header-p {
-  font-size: 0.9rem;
+  font-size: 3.6vw;
   text-align: center;
   margin: 5% auto 5% auto;
 }
@@ -120,7 +120,7 @@
   text-align: center;
 }
 .links-lower-left {
-  font-size: 1.5rem;
+  font-size: 6vw;
   color: white;
   font-weight: bold;
 }
@@ -141,12 +141,12 @@
 /*links*/
 /*pricing*/
 .pricing-header-h2 {
-  font-size: 2.5rem;
+  font-size: 10vw;
   text-align: center;
   font-weight: bold;
 }
 .pricing-header-p {
-  font-size: 0.9rem;
+  font-size: 3.6vw;
   text-align: center;
   font-weight: bold;
 }
@@ -154,49 +154,49 @@
   border: 1px solid #23a6f0;
 }
 .pricing-lower-side-h3 {
-  font-size: 1.5rem;
+  font-size: 6vw;
   font-weight: bold;
   text-align: center;
 }
 .pricing-lower-middle-h3 {
-  font-size: 1.5rem;
+  font-size: 6vw;
   font-weight: bold;
   text-align: center;
 }
 .pricing-lower-side-h5 {
-  font-size: 1rem;
+  font-size: 4vw;
   font-weight: bold;
   text-align: center;
 }
 .pricing-lower-middle-h5 {
-  font-size: 1rem;
+  font-size: 4vw;
   font-weight: bold;
   text-align: center;
 }
 .price-h2 {
-  font-size: 2.5rem;
+  font-size: 10vw;
   color: #23a6f0;
 }
 .price-dollar {
-  font-size: 1rem;
+  font-size: 4vw;
   color: #23a6f0;
   font-weight: bolder;
 }
 .time {
-  font-size: 1rem;
+  font-size: 4vw;
   color: #23a6f0;
   font-weight: bolder;
 }
 .offers-h6 {
-  font-size: 0.9rem;
+  font-size: 3.6vw;
   font-weight: bold;
-  font-size: 3vw;
+  font-size: 4vw;
 }
 .pricing-button {
   border: none;
   background-color: #23a6f0;
   color: white;
-  font-size: 0.9rem;
+  font-size: 3.6vw;
   font-weight: bold;
 }
 .pricing-button:hover {
@@ -214,12 +214,12 @@
   color: white;
 }
 .contact-upper-left-h2{
-  font-size: 2.5rem;
+  font-size: 10vw;
   color: white;
   font-weight: bold;
 }
 .contact-upper-left-p{
-  font-size: 0.9rem;
+  font-size: 3.6vw;
   font-weight: bold;
   color: white;
 }
@@ -234,7 +234,7 @@
   border-bottom: 5px solid #252B42;
 }
 .contact-form-h3{
-  font-size: 2rem;
+  font-size: 8vw;
   font-weight: bolder;
 }
 .contact-text{
@@ -242,7 +242,7 @@
   
 }
 .contact-form-tag{
-  font-size: 0.9rem;
+  font-size: 3.6vw;
   font-weight: bolder;
 }
 .contact-button{
@@ -261,13 +261,13 @@
   ;
 }
 .footer-upper-h2{
-  font-size: 1.5rem;
+  font-size: 6vw;
   font-weight:bolder;
   margin-bottom: 10%;
   line-height: 150%;
 }
 .footer-upper-p{
-  font-size: 0.9rem;
+  font-size: 3.6vw;
 }
 .footer-upper-button{
   background-color: #23a6f0;
@@ -279,13 +279,13 @@
   color:rgb(201, 201, 201);
 }
 .footer-col-header{
-  font-size:1rem;
+  font-size:4vw;
   font-weight: bolder;
   }
   .footer-col-li{
     margin-top:10%;
     margin-bottom:10%;
-    font-size:0.9rem;
+    font-size:3.6vw;
     font-weight:200;
   }
   .footer-lower{
