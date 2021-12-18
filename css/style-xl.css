@@ -35,6 +35,7 @@ img:hover{
 }
 .nav-bar-link {
   text-decoration: none;
+  font-size: 1.2vw;
 }
 .member{
   background-color: #23a6f0;
