@@ -27,7 +27,7 @@ img:hover{
   background-repeat: no-repeat;
 }
 .nav-bar-brand {
-  font-size: 1.5vw;
+  font-size: 3vw;
   font-weight: bolder;
   color: white;
 }
@@ -36,7 +36,7 @@ img:hover{
 }
 .nav-bar-items {
   list-style: none;
-  font-size: 0.9vw;
+  font-size: 1.8vw;
   color: #737373;
 }
 .nav-bar-link {
@@ -53,11 +53,11 @@ img:hover{
   font-weight: bolder;
 }
 .center-headline {
-  font-size: 2.5vw;
+  font-size: 5vw;
   text-align: center;
 }
 .header-center-text {
-  font-size: 1.25vw;
+  font-size: 2.5vw;
   text-align: center;
 }
 .header-center-button-left,
@@ -85,16 +85,16 @@ img:hover{
 
 .header-lower-item:hover {
   cursor: pointer;
-  background-color: #23a6f0;
+  filter: brightness(0.5);
   color: black;
 }
 
 .header-lower-h3 {
-  font-size: 1.5vw;
+  font-size: 3vw;
   font-weight: 900;
 }
 .header-lower-p {
-  font-size: 1.25vw;
+  font-size: 2.5vw;
 }
 
 /*header*/
@@ -104,12 +104,12 @@ img:hover{
 }
 .features-item-h5 {
   text-align: center;
-  font-size: 1vw;
+  font-size: 2vw;
   font-weight: bold;
 }
 .feature-item-p {
   text-align: center;
-  font-size: 0.9vw;
+  font-size: 1.8vw;
 }
 /*features*/
 /*testimonials*/
@@ -118,19 +118,19 @@ img:hover{
 }
 .testimonial-header-h2 {
   font-weight: bold;
-  font-size: 2.5vw;
+  font-size: 5vw;
   text-align: center;
   margin: 5% auto 5% auto;
 }
 .testimonial-body-item{
   
-    border-radius: 10% 10% 10% 10% / 100% 100% 100% 100% %;
+    border-radius: 2% ;
     border:1px solid rgb(192, 192, 192);
     background-color: white;
 
 }
 .testimonial-header-p {
-  font-size: 0.9vw;
+  font-size: 1.8vw;
   text-align: center;
   margin: 5% auto 5% auto;
 }
@@ -154,7 +154,7 @@ img:hover{
   text-align: center;
 }
 .links-lower-left {
-  font-size: 1.5vw;
+  font-size: 3vw;
   color: white;
   font-weight: bold;
 }
@@ -174,12 +174,12 @@ img:hover{
 /*links*/
 /*pricing*/
 .pricing-header-h2 {
-  font-size: 2.5vw;
+  font-size: 5vw;
   text-align: center;
   font-weight: bold;
 }
 .pricing-header-p {
-  font-size: 0.9vw;
+  font-size: 1.8vw;
   text-align: center;
   font-weight: bold;
 }
@@ -187,48 +187,48 @@ img:hover{
   border: 1px solid #23a6f0;
 }
 .pricing-lower-side-h3 {
-  font-size: 1.5vw;
+  font-size: 3vw;
   font-weight: bold;
   text-align: center;
 }
 .pricing-lower-middle-h3 {
-  font-size: 1.5vw;
+  font-size: 3vw;
   font-weight: bold;
   text-align: center;
 }
 .pricing-lower-side-h5 {
-  font-size: 1vw;
+  font-size: 2vw;
   font-weight: bold;
   text-align: center;
 }
 .pricing-lower-middle-h5 {
-  font-size: 1vw;
+  font-size: 2vw;
   font-weight: bold;
   text-align: center;
 }
 .price-h2 {
-  font-size: 2.5vw;
+  font-size: 5vw;
   color: #23a6f0;
 }
 .price-dollar {
-  font-size: 1vw;
+  font-size: 4vw;
   color: #23a6f0;
   font-weight: bolder;
 }
 .time {
-  font-size: 1vw;
+  font-size: 4vw;
   color: #23a6f0;
   font-weight: bolder;
 }
 .offers-h6 {
-  font-size: 0.9vw;
+  font-size: 1.8vw;
   font-weight: bold;
 }
 .pricing-button {
   border: none;
   background-color: #23a6f0;
   color: white;
-  font-size: 0.9vw;
+  font-size: 3.6vw;
   font-weight: bold;
   border-radius: 2%;
 }
@@ -247,12 +247,12 @@ img:hover{
   color: white;
 }
 .contact-upper-left-h2{
-  font-size: 2.5vw;
+  font-size: 5vw;
   color: white;
   font-weight: bold;
 }
 .contact-upper-left-p{
-  font-size: 0.9vw;
+  font-size: 1.8vw;
   font-weight: bold;
   color: white;
 }
@@ -267,7 +267,7 @@ img:hover{
   border-bottom: 5px solid #252B42;
 }
 .contact-form-h3{
-  font-size: 2vw;
+  font-size: 4vw;
   font-weight: bolder;
 }
 .contact-text{
@@ -275,7 +275,7 @@ img:hover{
   
 }
 .contact-form-tag{
-  font-size: 0.9vw;
+  font-size: 3.6vw;
   font-weight: bolder;
 }
 .contact-button{
@@ -295,25 +295,27 @@ img:hover{
   ;
 }
 .footer-upper-h2{
-  font-size: 1.5vw;
+  font-size: 6vw;
   font-weight:bolder;
  margin-top:2%;
  margin-bottom: 2%;
 }
 .footer-upper-p{
-  font-size: 0.9vw;
+  font-size: 3.6vw;
   margin-top:5%;
   margin-bottom:5%;
 }
 .footer-upper-button{
   background-color: #23a6f0;
-  border:none;
-  border-radius:25% 25% 25% 25%/100% 100% 100% 100%;
-  color:white;
-  margin-top:5%;
-  width: 10vw;
-  padding-top:5%;
-  padding-bottom:5%;
+  border: none;
+  border-radius: 25% 25% 25% 25%/100% 100% 100% 100%;
+  color: white;
+  margin-top: 5%;
+  width: 20vw;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-left: 35%;
+  margin-right: auto;
 }
 .footer-upper-button:hover{
   color:rgb(201, 201, 201);
@@ -330,6 +332,7 @@ font-weight: bold;
 .footer-col-li{
 padding-top:5%;
 padding-bottom:5%;
+font-size: 3.6vw;
 }
 .footer-col-li img{
     display: inline-block;
@@ -378,7 +381,7 @@ h3 {
   font-family: "Montserrat", sans-serif;
   font-family: "Mulish", sans-serif;
   font-family: "Source Sans 3", sans-serif;
-  font-size: 1.5vw;
+  
 }
 h5 {
     font-family: "Montserrat", sans-serif;
@@ -420,6 +423,9 @@ li{
 a{
   color:white;
   text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Mulish', sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
 }
 /*text*/
 

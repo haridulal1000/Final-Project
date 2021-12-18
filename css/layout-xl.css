@@ -5,7 +5,7 @@
     }
     .main{
         min-width: 300px;
-        width: 80%;
+        width: 100%;
         margin:auto;
         outline: 1px solid gray;
     }
@@ -35,6 +35,9 @@
     display: inline-block;
     margin-left:10%;
     width: 25%;
+}
+.login{
+    font-size: 1.8vw;
 }
 .nav-bar-right{
     display: inline-block;
@@ -133,6 +136,9 @@ margin: 1%;
     margin-right:auto;
     margin-top: 5%;
     margin-bottom: 5%;
+}
+.feature-item-image-back{
+    z-index:-1;
 }
 /*features*/
 /*testimonial*/
@@ -289,6 +295,11 @@ font-size: 1.5vw;
     border-radius: 100%;
     background-color: cadetblue;
 }
+.offer-tick-lower{
+    display: inline-block;
+    border-radius: 100%;
+    background-color: gray;
+}
 .offer-item{
     width: 100%;
     margin: auto;
@@ -438,3 +449,6 @@ display: inline-block;
    
 }
 /*footer*/
+.a{
+
+}

@@ -2,6 +2,17 @@
 .main{
   
 }
+input[type='button']:hover,button:hover{
+  cursor: pointer;
+}
+li:hover{
+  filter: brightness(0.5);
+  cursor: pointer;
+}
+img:hover{
+  filter:brightness(0.5);
+  cursor: pointer;
+}
 /*header*/
 .header {
   background-image: url("../images/header-cover.jpg");
@@ -9,7 +20,7 @@
   padding-bottom:10%;
 
   /* background-position: 45% -48%; */
-  background-blend-mode: color-burn;
+  background-blend-mode:multiply;
   background-repeat: no-repeat;
 }
 .nav-bar-brand {
@@ -68,7 +79,7 @@
 
 .header-lower-item:hover {
   cursor: pointer;
-  background-color: #23a6f0;
+  filter: brightness(0.5);
   color: black;
 }
 
@@ -412,14 +423,68 @@ a{
 }
 /*text*/
 
-input[type='button']:hover,button:hover{
-  cursor: pointer;
+p {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Mulish", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
 }
-li:hover{
-  filter: brightness(0.5);
-  cursor: pointer;
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Mulish", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
 }
-img:hover{
-  filter:brightness(0.5);
-  cursor: pointer;
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Mulish", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Mulish", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
+  
+}
+h5 {
+    font-family: "Montserrat", sans-serif;
+    font-family: "Mulish", sans-serif;
+    font-family: "Source Sans 3", sans-serif;
+  }
+  h6{
+    font-family: "Montserrat", sans-serif;
+  font-family: "Mulish", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
+  }
+li {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Mulish", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
+}
+button{
+    
+        font-family: 'Montserrat', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Source Sans 3', sans-serif;
+    
+}
+input{
+  font-family: 'Montserrat', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Source Sans 3', sans-serif;
+}
+select{
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Mulish', sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
+}
+li{
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Mulish', sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
+}
+a{
+  color:white;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Mulish', sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
 }

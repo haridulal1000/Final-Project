@@ -252,6 +252,11 @@ margin:10% auto;
     border-radius: 100%;
     background-color: cadetblue;
 }
+.offer-tick-lower{
+    display: inline-block;
+    border-radius: 100%;
+    background-color: gray;
+}
 .offer-item{
     margin: auto;
 }

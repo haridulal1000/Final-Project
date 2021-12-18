@@ -5,7 +5,7 @@
     }
     .main{
         min-width: 300px;
-        width: 80%;
+        width: 100%;
         margin:auto;
         outline: 1px solid gray;
     }
@@ -296,25 +296,30 @@ margin: 1%;
     padding-top:7%;
 }
 .pricing-button{
-    width:80%;
+    width: 80%;
     margin: 0 auto;
     margin-left: 10%;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-bottom: 10%;
-    padding-top:10%;
-    padding-bottom: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     font-size: 3vw;
 
 }
 .offers-h6{
     display: inline-block;
     width: fit-content;
-    font-size: 3vw;
+    font-size: 1.8vw;
 }
 .offer-tick{
     display: inline-block;
     border-radius: 100%;
     background-color: cadetblue;
+}
+.offer-tick-lower{
+    display: inline-block;
+    border-radius: 100%;
+    background-color: gray;
 }
 
 .offers{
@@ -333,6 +338,10 @@ margin: 1%;
     .contact-upper-left-p{
         margin:5% auto;
     }
+    .contact-upper-right-image{
+        display: block;
+        margin: auto;
+    }
     .contact-upper-right{
         margin-top:30%;
         margin-bottom:30%;
@@ -345,6 +354,8 @@ margin: 1%;
       }
       .contact-form-h3{
         width: 50%;
+        display: block;
+        margin: auto;
       }
       .contact-form-header{
           margin-top:10%;
@@ -357,12 +368,14 @@ margin: 1%;
           width:100%
       }
       .contact-text{
-          width: 100%;
-          margin:5% auto;
-          padding-top:5%;
-          padding-bottom: 5%;
-          border: 1px solid #BDBDBD;
-          border-radius: 10% 10% 10% 10% / 100% 100% 100% 100% ;
+        width: 100%;
+        margin: 5% auto;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        border: 1px solid #BDBDBD;
+        border-radius: 10% 10% 10% 10% / 100% 100% 100% 100%;
+        font-size: 4vw;
+
       }
       .contact-button{
           width:100%;
@@ -384,13 +397,17 @@ margin: 1%;
     clear: both;
 }
 .footer-upper-left{
-    float:left;
+    display: block;
     padding-top:5%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .footer-upper-right{
-    float:right;
+    display: block;
     padding-top:5%;
     padding-bottom:5%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .footer-middle-container{
     width:60%;
@@ -399,6 +416,7 @@ margin: 1%;
 .footer-col-header{
 margin-top:10%;
 margin-bottom:10%;
+font-size: 4vw;
 }
 .footer-col-li img{
     display: inline-block;
