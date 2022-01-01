@@ -1,491 +1,460 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Mulish:wght@200&family=Source+Sans+3:wght@300&display=swap');
-.main{
-  
-}
-input[type='button']:hover,button:hover{
-  cursor: pointer;
-}
-li:hover{
-  filter: brightness(0.5);
-  cursor: pointer;
-}
-img:hover{
-  filter:brightness(0.5);
-  cursor: pointer;
-}
-/*header*/
-.header {
-  background-image: url("../images/header-cover.jpg");
-  background-size:cover;
-  padding-bottom:10%;
+.main {}
 
-  /* background-position: 45% -48%; */
-  background-blend-mode:multiply;
-  background-repeat: no-repeat;
+input[type='button']:hover,
+button:hover {
+    cursor: pointer;
 }
+
+li:hover {
+    filter: brightness(0.5);
+    cursor: pointer;
+}
+
+img:hover {
+    filter: brightness(0.5);
+    cursor: pointer;
+}
+
+
+/*header*/
+
+.header {
+    background-image: url("../images/header-cover.jpg");
+    background-size: cover;
+    padding-bottom: 10%;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+}
+
 .nav-bar-brand {
-  font-size: 1.5vw;
-  font-weight: bolder;
-  color: white;
+    font-size: 1.5vw;
+    font-weight: bolder;
+    color: white;
 }
+
 .nav-bar-items {
-  list-style: none;
-  font-size: 0.9vw;
-  color: #737373;
+    list-style: none;
+    font-size: 0.9vw;
+    color: #737373;
 }
+
 .nav-bar-link {
-  text-decoration: none;
-  font-size: 1.2vw;
+    text-decoration: none;
+    font-size: 1.2vw;
 }
-.member{
-  background-color: #23a6f0;
-  color:white;
-  border:none;
-  border-radius: 10% 10% 10% 10% / 100% 100% 100% 100% ;
+
+.member {
+    background-color: #23a6f0;
+    color: white;
+    border: none;
+    border-radius: 10% 10% 10% 10% / 100% 100% 100% 100%;
 }
+
 .header-center {
-  color: white;
-  font-weight: bolder;
+    color: white;
+    font-weight: bolder;
 }
+
 .center-headline {
-  font-size: 2.5vw;
-  text-align: center;
+    font-size: 2.5vw;
+    text-align: center;
 }
+
 .header-center-text {
-  font-size: 1.25vw;
-  text-align: center;
+    font-size: 1.25vw;
+    text-align: center;
 }
+
 .header-center-button-left,
 .header-center-button-right {
-  background-color: Transparent;
-  background-repeat: no-repeat;
-  border: none;
-  cursor: pointer;
-  overflow: hidden;
-  border: 1px solid white;
-  color: white;
-  font-weight: bold;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
 }
+
 .header-center-button-left:hover {
-  cursor: pointer;
-  background-color: #23a6f0;
+    cursor: pointer;
+    background-color: #23a6f0;
 }
+
 .header-center-button-right:hover {
-  cursor: pointer;
-  background-color: #23a6f0;
+    cursor: pointer;
+    background-color: #23a6f0;
 }
+
 .header-lower-item {
-  background-color: white;
+    background-color: white;
 }
 
 .header-lower-item:hover {
-  cursor: pointer;
-  filter: brightness(0.5);
-  color: black;
+    cursor: pointer;
+    filter: brightness(0.5);
+    color: black;
 }
 
 .header-lower-h3 {
-  font-size: 1.5vw;
-  font-weight: 900;
+    font-size: 1.5vw;
+    font-weight: 900;
 }
+
 .header-lower-p {
-  font-size: 1.25vw;
+    font-size: 1.25vw;
 }
+
 
 /*header*/
-/*features*/
-.feature{
-  background-color: blue;
-}
-.features-item-h5 {
-  text-align: center;
-  font-size: 1vw;
-  font-weight: bold;
-}
-.feature-item-p {
-  text-align: center;
-  font-size: 0.9vw;
-}
-/*features*/
-/*testimonials*/
-.testimonials {
-  background-color: #fafafa;
-}
-.testimonial-header-h2 {
-  font-weight: bold;
-  font-size: 2.5vw;
-  text-align: center;
-  margin: 5% auto 5% auto;
-}
-.testimonial-body-item{
-  
-    border-radius: 2%;
-    border:1px solid rgb(192, 192, 192);
-    background-color: white;
 
+
+/*features*/
+
+.feature {
+    background-color: blue;
 }
-.testimonial-header-p {
-  font-size: 0.9vw;
-  text-align: center;
-  margin: 5% auto 5% auto;
+
+.features-item-h5 {
+    text-align: center;
+    font-size: 1vw;
+    font-weight: bold;
 }
-.testimonial-body-p {
-  text-align: center;
-  width: 70%;
-  margin: 15% auto;
+
+.feature-item-p {
+    text-align: center;
+    /* font-size: 0.9vw; */
 }
-.testimonial-image{
-  border-radius:100%;
-}
+
+
+/*features*/
+
+
 /*testimonials*/
+
+.testimonials {
+    background-color: #fafafa;
+}
+
+.testimonial-header-h2 {
+    font-weight: bold;
+    font-size: 2.5vw;
+    text-align: center;
+    /* margin: 5% auto 5% auto; */
+}
+
+.testimonial-body-item {
+    border-radius: 2%;
+    border: 1px solid rgb(192, 192, 192);
+    background-color: white;
+}
+
+.testimonial-header-p {
+    font-size: 0.9vw;
+    text-align: center;
+    margin: 1% auto 1% auto;
+}
+
+.testimonial-body-p {
+    text-align: center;
+    width: 70%;
+    margin: 15% auto;
+}
+
+.testimonial-image {
+    border-radius: 100%;
+}
+
+
+/*testimonials*/
+
+
 /*links*/
+
 .links {
-  background-color: #fafafa;
+    background-color: #fafafa;
 }
+
 .links-lower {
-  background-image: linear-gradient(to right, #004788, #d51589);
+    background-image: linear-gradient(to right, #004788, #d51589);
 }
+
 .links-lower-h3 {
-  text-align: left;
+    text-align: left;
 }
+
 .links-lower-left {
-  font-size: 1.5vw;
-  color: white;
-  font-weight: bold;
+    font-size: 1.5vw;
+    color: white;
+    font-weight: bold;
 }
+
 .links-lower-button {
-  border: none;
-  background-color: #23a6f0;
-  color: white;
+    border: none;
+    background-color: #23a6f0;
+    color: white;
 }
+
 .links-lower-button:hover {
-  color: rgb(206, 206, 206);
+    color: rgb(206, 206, 206);
 }
 
 .links-lower-right {
-  
-  border-radius: 10% 10% 10% 10% / 100% 100% 100% 100% ;
+    border-radius: 10% 10% 10% 10% / 100% 100% 100% 100%;
 }
+
 
 /*links*/
+
+
 /*pricing*/
+
 .pricing-header-h2 {
-  font-size: 2.5vw;
-  text-align: center;
-  font-weight: bold;
-}
-.pricing-header-p {
-  font-size: 0.9vw;
-  text-align: center;
-  font-weight: bold;
-}
-.pricing-body-item-side {
-  border: 1px solid #23a6f0;
-}
-.pricing-lower-side-h3 {
-  font-size: 1.5vw;
-  font-weight: bold;
-  text-align: center;
-}
-.pricing-lower-middle-h3 {
-  font-size: 1.5vw;
-  font-weight: bold;
-  text-align: center;
-}
-.pricing-lower-side-h5 {
-  font-size: 1vw;
-  font-weight: bold;
-  text-align: center;
-}
-.pricing-lower-middle-h5 {
-  font-size: 1vw;
-  font-weight: bold;
-  text-align: center;
-}
-.price-h2 {
-  font-size: 2.5vw;
-  color: #23a6f0;
-}
-.price-dollar {
-  font-size: 1vw;
-  color: #23a6f0;
-  font-weight: bolder;
-}
-.time {
-  font-size: 1vw;
-  color: #23a6f0;
-  font-weight: bolder;
-}
-.offers-h6 {
-  font-size: 0.9vw;
-  font-weight: bold;
-}
-.pricing-button {
-  border: none;
-  background-color: #23a6f0;
-  color: white;
-  font-size: 0.9vw;
-  font-weight: bold;
-  border-radius: 2%;
-}
-.pricing-button:hover {
-  color: rgb(197, 197, 197);
-}
-.pricing-body-item-middle{
-  background-color: #252B42;
-  color:white;
-  ;
-}
-/*pricing*/
-/*contact*/
-.contact-upper{
-  background-color: #252B42;
-  color: white;
-}
-.contact-upper-left-h2{
-  font-size: 2.5vw;
-  color: white;
-  font-weight: bold;
-}
-.contact-upper-left-p{
-  font-size: 0.9vw;
-  font-weight: bold;
-  color: white;
-}
-.contact-lower{
-  /* background-color: white; */
-}
-.contact-lower-container{
-  width: 50%;
-  margin: auto;
-  background-image: url("../images/contact-lower-image.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 10% 5%;
-  z-index: 5;
-  margin-top:-15%;
-}
-.contact-lower-container::after{
-  content: '';
-  display: block;
-  clear: both;
-}
-.contact-form-container{
-  width: 75%;
-  background-color: white;
-  float: right;
-  padding: 2%;
-}
-.contact-form-h3{
-  font-size: 2vw;
-  font-weight: bolder;
-  text-align: center;
-  margin: auto;
-}
-.contact-text{
-  background-color: #F9F9F9;
-  
-}
-.contact-form-tag{
-  font-size: 0.9vw;
-  font-weight: bolder;
-}
-.contact-button{
-  background-color: #23a6f0;
-  font-weight: bold;
-  color: white;
-}
-.contact-button:hover{
-  color: rgb(204, 204, 204);
-}
-  
-/*contact*/
-/*footer*/
-.footer-upper{
-  background-color: #FAFAFA;
-  padding-top:5%;
-  padding-bottom:5%;
-  ;
-}
-.footer-upper-h2{
-  font-size: 1.5vw;
-  font-weight:bolder;
- margin-top:2%;
- margin-bottom: 2%;
-}
-.footer-upper-p{
-  font-size: 0.9vw;
-  margin-top:5%;
-  margin-bottom:5%;
-}
-.footer-upper-button{
-  background-color: #23a6f0;
-  border:none;
-  border-radius:25% 25% 25% 25%/100% 100% 100% 100%;
-  color:white;
-  margin-top:5%;
-  width: 10vw;
-  padding-top:5%;
-  padding-bottom:5%;
-}
-.footer-upper-button:hover{
-  color:rgb(201, 201, 201);
-}
-.footer-middle{
-  padding-top:5%;
-}
-.footer-col-header{
-  font-size:1vw;
-  font-weight: bolder;
-  }
-  .footer-col-li{
-    font-size:0.9vw;
-    font-weight:200;
-  }
-  .footer-lower{
-    background-color: #FAFAFA;
-  }
-  .footer-lower-left-p{
+    font-size: 2.5vw;
+    text-align: center;
     font-weight: bold;
 }
+
+.pricing-header-p {
+    font-size: 0.9vw;
+    text-align: center;
+    font-weight: bold;
+}
+
+.pricing-body-item-side {
+    border: 1px solid #23a6f0;
+}
+
+.pricing-lower-side-h3 {
+    font-size: 1.5vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+.pricing-lower-middle-h3 {
+    font-size: 1.5vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+.pricing-lower-side-h5 {
+    font-size: 1vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+.pricing-lower-middle-h5 {
+    font-size: 1vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+.price-h2 {
+    font-size: 2.5vw;
+    color: #23a6f0;
+}
+
+.price-dollar {
+    font-size: 1vw;
+    color: #23a6f0;
+    font-weight: bolder;
+}
+
+.time {
+    font-size: 1vw;
+    color: #23a6f0;
+    font-weight: bolder;
+}
+
+.offers-h6 {
+    font-size: 0.9vw;
+    font-weight: bold;
+}
+
+.pricing-button {
+    border: none;
+    background-color: #23a6f0;
+    color: white;
+    font-size: 0.9vw;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.pricing-button:hover {
+    color: rgb(197, 197, 197);
+}
+
+.pricing-body-item-middle {
+    background-color: #252B42;
+    color: white;
+    ;
+}
+
+
+/*pricing*/
+
+
+/*contact*/
+
+.contact-upper {
+    background-color: #252B42;
+    color: white;
+}
+
+.contact-upper-left-h2 {
+    font-size: 2.5vw;
+    color: white;
+    font-weight: bold;
+}
+
+.contact-upper-left-p {
+    font-size: 0.9vw;
+    font-weight: bold;
+    color: white;
+}
+
+.contact-lower {
+    /* background-color: white; */
+}
+
+.contact-lower-container {
+    width: 50%;
+    margin: auto;
+    background-image: url("../images/contact-lower-image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 10% 5%;
+    z-index: 5;
+    margin-top: -20%;
+}
+
+.contact-lower-container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.contact-form-container {
+    width: 75%;
+    background-color: white;
+    float: right;
+    padding: 2%;
+}
+
+.contact-form-h3 {
+    font-size: 2vw;
+    font-weight: bolder;
+    text-align: center;
+    margin: auto;
+}
+
+.contact-text {
+    background-color: #F9F9F9;
+}
+
+.contact-form-tag {
+    font-size: 1.5vw;
+    font-weight: bolder;
+}
+
+.contact-button {
+    background-color: #23a6f0;
+    font-weight: bold;
+    color: white;
+}
+
+.contact-button:hover {
+    color: rgb(204, 204, 204);
+}
+
+
+/*contact*/
+
+
 /*footer*/
-/*price*/
-.price-h2{
-  text-align:center;
+
+.footer-upper {
+    background-color: #FAFAFA;
+    padding-top: 0%;
+    padding-bottom: 0%;
 }
+
+.footer-upper-h2 {
+    font-size: 1.5vw;
+    font-weight: bolder;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.footer-upper-p {
+    font-size: 0.9vw;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.footer-upper-button {
+    background-color: #23a6f0;
+    border: none;
+    color: white;
+    margin-top: 5%;
+    width: 10vw;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 10px;
+    font-size: 1.5vw;
+    font-weight: bolder;
+}
+
+.footer-upper-button:hover {
+    color: rgb(201, 201, 201);
+}
+
+.footer-middle {
+    padding-top: 2.5%;
+}
+
+.footer-col-header {
+    font-size: 1vw;
+    font-weight: bolder;
+}
+
+.footer-col-li {
+    font-size: 0.9vw;
+    font-weight: 200;
+}
+
+.footer-lower {
+    background-color: #FAFAFA;
+}
+
+.footer-lower-left-p {
+    font-weight: bold;
+}
+
+
+/*footer*/
+
+
 /*price*/
 
+.price-h2 {
+    text-align: center;
+}
 
 
+/*price*/
 
 
 /*text*/
-p {
-  font-family: "Montserrat", sans-serif;
-  font-family: "Mulish", sans-serif;
-  font-family: "Source Sans 3", sans-serif;
-}
-h1 {
-  font-family: "Montserrat", sans-serif;
-  font-family: "Mulish", sans-serif;
-  font-family: "Source Sans 3", sans-serif;
-}
-h2 {
-  font-family: "Montserrat", sans-serif;
-  font-family: "Mulish", sans-serif;
-  font-family: "Source Sans 3", sans-serif;
-}
-h3 {
-  font-family: "Montserrat", sans-serif;
-  font-family: "Mulish", sans-serif;
-  font-family: "Source Sans 3", sans-serif;
-  font-size: 1.5vw;
-}
-h5 {
-    font-family: "Montserrat", sans-serif;
-    font-family: "Mulish", sans-serif;
-    font-family: "Source Sans 3", sans-serif;
-  }
-  h6{
-    font-family: "Montserrat", sans-serif;
-  font-family: "Mulish", sans-serif;
-  font-family: "Source Sans 3", sans-serif;
-  }
-li {
-  font-family: "Montserrat", sans-serif;
-  font-family: "Mulish", sans-serif;
-  font-family: "Source Sans 3", sans-serif;
-}
-button{
-    
-        font-family: 'Montserrat', sans-serif;
-    font-family: 'Mulish', sans-serif;
-    font-family: 'Source Sans 3', sans-serif;
-    
-}
-input{
-  font-family: 'Montserrat', sans-serif;
-    font-family: 'Mulish', sans-serif;
-    font-family: 'Source Sans 3', sans-serif;
-}
-select{
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Mulish', sans-serif;
-  font-family: 'Source Sans 3', sans-serif;
-}
-li{
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Mulish', sans-serif;
-  font-family: 'Source Sans 3', sans-serif;
-}
-a{
-  color:white;
-  text-decoration: none;
-}
-/*text*/
 
-p {
-  font-family: "Montserrat", sans-serif;
-  font-family: "Mulish", sans-serif;
-  font-family: "Source Sans 3", sans-serif;
-}
-h1 {
-  font-family: "Montserrat", sans-serif;
-  font-family: "Mulish", sans-serif;
-  font-family: "Source Sans 3", sans-serif;
-}
-h2 {
-  font-family: "Montserrat", sans-serif;
-  font-family: "Mulish", sans-serif;
-  font-family: "Source Sans 3", sans-serif;
-}
-h3 {
-  font-family: "Montserrat", sans-serif;
-  font-family: "Mulish", sans-serif;
-  font-family: "Source Sans 3", sans-serif;
-  
-}
-h5 {
-    font-family: "Montserrat", sans-serif;
-    font-family: "Mulish", sans-serif;
-    font-family: "Source Sans 3", sans-serif;
-  }
-  h6{
-    font-family: "Montserrat", sans-serif;
-  font-family: "Mulish", sans-serif;
-  font-family: "Source Sans 3", sans-serif;
-  }
-li {
-  font-family: "Montserrat", sans-serif;
-  font-family: "Mulish", sans-serif;
-  font-family: "Source Sans 3", sans-serif;
-}
-button{
-    
-        font-family: 'Montserrat', sans-serif;
+* {
     font-family: 'Mulish', sans-serif;
     font-family: 'Source Sans 3', sans-serif;
-    
+    font-family: 'Montserrat', sans-serif;
 }
-input{
-  font-family: 'Montserrat', sans-serif;
-    font-family: 'Mulish', sans-serif;
-    font-family: 'Source Sans 3', sans-serif;
-}
-select{
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Mulish', sans-serif;
-  font-family: 'Source Sans 3', sans-serif;
-}
-li{
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Mulish', sans-serif;
-  font-family: 'Source Sans 3', sans-serif;
-}
-a{
-  color:white;
-  text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Mulish', sans-serif;
-  font-family: 'Source Sans 3', sans-serif;
+
+a {
+    color: white;
 }
