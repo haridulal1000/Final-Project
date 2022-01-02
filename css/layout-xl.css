@@ -1,5 +1,5 @@
 .clearfix::after {
-    content: '';
+    content: "";
     display: block;
     clear: both;
 }
@@ -8,11 +8,8 @@
     min-width: 300px;
     width: 100%;
     margin: auto;
-    outline: 1px solid gray;
+    outline: gray solid 1px;
 }
-
-
-/*header*/
 
 .header-nav-bar {
     width: 80%;
@@ -23,7 +20,7 @@
 }
 
 .header-nav-bar::after {
-    content: '';
+    content: "";
     display: block;
     clear: both;
 }
@@ -42,20 +39,21 @@
 
 .nav-bar-left {
     display: inline-block;
-    margin-left: 10%;
+    margin-left: 5%;
     width: 25%;
 }
 
 .login {
     font-size: 1.8vw;
+    display: block;
+    float: right;
+    padding-top: 15%;
 }
 
 .nav-bar-right {
-    display: inline-block;
-    margin-right: 0;
+    margin-right: 0px;
     margin-left: auto;
-    width: 23%;
-    margin-left: 28%;
+    width: 30%;
     float: right;
 }
 
@@ -69,14 +67,12 @@
 }
 
 .member {
-    display: inline-block;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-right: 10%;
-    padding-left: 10%;
+    padding: 5%;
     margin-left: 5%;
-    font-size: 0.8vw;
+    border-radius: 15px;
     font-weight: bold;
+    font-size: 1vw;
+    float: right;
 }
 
 .header-center {
@@ -97,8 +93,7 @@
 
 .header-center-buttons {
     width: fit-content;
-    margin: 0 auto;
-    margin-bottom: 20%;
+    margin: 0px auto 20%;
 }
 
 .header-center-button-left,
@@ -106,20 +101,19 @@
     width: 10vw;
     padding-top: 5%;
     padding-bottom: 5%;
-    border-radius: 25% 25% 25% 25% / 100% 100% 100% 100%
+    border-radius: 25% / 100%;
 }
 
 .header-lower::after {
-    content: '';
+    content: "";
     display: block;
     clear: both;
 }
 
 .header-lower-container {
     width: 75%;
-    margin: 0 auto;
+    margin: -5% auto 0px;
     z-index: 5;
-    margin-top: -5%;
 }
 
 .header-lower-item {
@@ -127,7 +121,7 @@
     display: inline-block;
     padding: 2%;
     margin-left: 2.5%;
-    filter: drop-shadow(13px 11px 10px gray);
+    filter: drop-shadow(gray 13px 11px 10px);
 }
 
 .header-lower-items-image {
@@ -135,21 +129,15 @@
     margin-bottom: 5%;
 }
 
-
-/*header*/
-
-
-/*features*/
-
 .features::after {
-    content: '';
+    content: "";
     display: block;
     clear: both;
 }
 
 .features-container {
     width: 75%;
-    margin: 0 auto;
+    margin: 0px auto;
     padding-top: 5%;
     padding-bottom: 5%;
 }
@@ -163,35 +151,28 @@
 
 .feature-item-image {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin: 5% auto;
 }
 
 .feature-item-image-back {
     z-index: -1;
 }
 
-
-/*features*/
-
-
-/*testimonial*/
-
 .testimonals-header-container {
     padding-top: 5%;
+    width: 50%;
+    margin: 0px auto;
 }
 
 .testimonial-body::after {
-    content: '';
+    content: "";
     display: block;
     clear: both;
 }
 
 .testimonial-body-container {
     width: 75%;
-    margin: 0 auto;
+    margin: 0px auto;
     padding-top: 5%;
     padding-bottom: 5%;
 }
@@ -205,10 +186,7 @@
 
 .testimonial-image {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    margin-bottom: 2.5%;
+    margin: 5% auto 2.5%;
 }
 
 .testimonial-stars {
@@ -216,19 +194,15 @@
     margin: auto;
 }
 
-
-/*testimonial/
-/*links*/
-
 .links-upper-container::after {
-    content: '';
+    content: "";
     display: block;
     clear: both;
 }
 
 .links-upper-container {
     width: 75%;
-    margin: 0 auto;
+    margin: 0px auto;
     padding-top: 5%;
     padding-bottom: 5%;
 }
@@ -241,18 +215,15 @@
 }
 
 .links-lower::after {
-    content: '';
+    content: "";
     display: block;
     clear: both;
 }
 
 .links-lower {
     width: 75%;
-    margin: 0 auto;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 5%;
-    padding-right: 5%;
+    margin: 0px auto;
+    padding: 2% 5%;
 }
 
 .links-lower-left {
@@ -288,17 +259,13 @@
     font-size: 1.5vw;
 }
 
-
-/*links*/
-
-
-/*pricing*/
+.pricing {
+    padding-bottom: 5%;
+}
 
 .pricing-header {
     width: 50%;
-    margin: auto;
-    margin-top: 0%;
-    margin-bottom: 5%;
+    margin: 0% auto 5%;
 }
 
 .pricing-header-h2 {
@@ -311,7 +278,7 @@
 }
 
 .pricing-body-container::after {
-    content: '';
+    content: "";
     display: block;
     clear: both;
 }
@@ -342,9 +309,8 @@
 
 .price {
     width: fit-content;
-    margin: auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin: 5% auto;
+    font-weight: bolder;
 }
 
 .pricing-lower-middle-h5,
@@ -377,21 +343,13 @@
 
 .offer-item {
     width: 100%;
-    margin: auto;
-    margin-bottom: 10%;
+    margin: auto auto 10%;
 }
 
 .offers {
-    margin: auto;
+    margin: 10% auto auto;
     width: max-content;
-    margin-top: 10%;
 }
-
-
-/*pricing*/
-
-
-/*contact*/
 
 .contact-lower {
     position: relative;
@@ -405,7 +363,7 @@
 }
 
 .contact-upper-container::after {
-    content: '';
+    content: "";
     display: block;
     clear: both;
 }
@@ -438,14 +396,13 @@
 }
 
 .contact-form {
-    width: 100%
+    width: 100%;
 }
 
 .contact-text {
     width: 90%;
     margin: 2% auto;
-    border: 1px solid #BDBDBD;
-    border-radius: 2%;
+    border: 1px solid rgb(189, 189, 189);
     font-size: 1.5vw;
     border-radius: 5px;
 }
@@ -461,19 +418,13 @@
     font-size: 1.5vw;
 }
 
-
-/*contact*/
-
-
-/*footer*/
-
 .footer-upper-container {
     width: 80%;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 
 .footer-upper-container::after {
-    content: '';
+    content: "";
     display: block;
     clear: both;
 }
@@ -492,7 +443,7 @@
 .footer-middle-container {
     padding-bottom: 5%;
     width: 80%;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 
 .footer-col-li {
@@ -506,7 +457,7 @@
 .footer-col-li div {
     display: inline-block;
     margin-left: 5%;
-    padding-top: 26px;
+    padding-top: 25px;
 }
 
 .footer-middle-col {
@@ -515,16 +466,16 @@
 
 .footer-middle-col:not(:last-child) {
     width: 17%;
-    margin-right: 3%;
+    margin-right: 1.5%;
 }
 
 .footer-middle-col:not(:last-child) li {
-    padding-top: 14px;
+    padding-top: 30px;
 }
 
 .footer-middle-col:last-child {
-    margin-left: 0;
-    width: 20%;
+    margin-left: 0px;
+    width: 25%;
     padding: 0%;
     align-content: stretch;
 }
@@ -542,7 +493,6 @@
 }
 
 .reference img {
-    display: inline-block;
     margin-left: 10%;
     float: right;
 }
@@ -552,9 +502,10 @@
     width: 40%;
 }
 
-
-/*footer*/
-
 .a {
     text-decoration: none;
+}
+
+p {
+    margin-top: 2%;
 }

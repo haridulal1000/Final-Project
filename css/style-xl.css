@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Mulish:wght@200&family=Source+Sans+3:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Mulish:wght@200&family=Source+Sans+3:wght@300&display=swap");
 .main {}
 
-input[type='button']:hover,
+input[type="button"]:hover,
 button:hover {
     cursor: pointer;
 }
@@ -16,9 +16,6 @@ img:hover {
     cursor: pointer;
 }
 
-
-/*header*/
-
 .header {
     background-image: url("../images/header-cover.jpg");
     background-size: cover;
@@ -28,7 +25,7 @@ img:hover {
 }
 
 .nav-bar-brand {
-    font-size: 1.5vw;
+    font-size: 2.5vw;
     font-weight: bolder;
     color: white;
 }
@@ -36,7 +33,7 @@ img:hover {
 .nav-bar-items {
     list-style: none;
     font-size: 0.9vw;
-    color: #737373;
+    color: rgb(115, 115, 115);
 }
 
 .nav-bar-link {
@@ -45,10 +42,10 @@ img:hover {
 }
 
 .member {
-    background-color: #23a6f0;
+    background-color: rgb(35, 166, 240);
     color: white;
     border: none;
-    border-radius: 10% 10% 10% 10% / 100% 100% 100% 100%;
+    border-radius: 10% / 100%;
 }
 
 .header-center {
@@ -68,9 +65,8 @@ img:hover {
 
 .header-center-button-left,
 .header-center-button-right {
-    background-color: Transparent;
+    background-color: transparent;
     background-repeat: no-repeat;
-    border: none;
     cursor: pointer;
     overflow: hidden;
     border: 1px solid white;
@@ -80,12 +76,12 @@ img:hover {
 
 .header-center-button-left:hover {
     cursor: pointer;
-    background-color: #23a6f0;
+    background-color: rgb(35, 166, 240);
 }
 
 .header-center-button-right:hover {
     cursor: pointer;
-    background-color: #23a6f0;
+    background-color: rgb(35, 166, 240);
 }
 
 .header-lower-item {
@@ -107,42 +103,28 @@ img:hover {
     font-size: 1.25vw;
 }
 
-
-/*header*/
-
-
-/*features*/
-
 .feature {
     background-color: blue;
 }
 
 .features-item-h5 {
     text-align: center;
-    font-size: 1vw;
+    font-size: 1.5vw;
     font-weight: bold;
 }
 
 .feature-item-p {
     text-align: center;
-    /* font-size: 0.9vw; */
 }
 
-
-/*features*/
-
-
-/*testimonials*/
-
 .testimonials {
-    background-color: #fafafa;
+    background-color: rgb(250, 250, 250);
 }
 
 .testimonial-header-h2 {
     font-weight: bold;
     font-size: 2.5vw;
     text-align: center;
-    /* margin: 5% auto 5% auto; */
 }
 
 .testimonial-body-item {
@@ -152,9 +134,11 @@ img:hover {
 }
 
 .testimonial-header-p {
-    font-size: 0.9vw;
+    /* font-size: 0.9vw; */
     text-align: center;
-    margin: 1% auto 1% auto;
+    margin: 2% auto;
+    /* width: 30%; */
+    font-size: 1.25vw;
 }
 
 .testimonial-body-p {
@@ -167,18 +151,12 @@ img:hover {
     border-radius: 100%;
 }
 
-
-/*testimonials*/
-
-
-/*links*/
-
 .links {
-    background-color: #fafafa;
+    background-color: rgb(250, 250, 250);
 }
 
 .links-lower {
-    background-image: linear-gradient(to right, #004788, #d51589);
+    background-image: linear-gradient(to right, rgb(0, 71, 136), rgb(213, 21, 137));
 }
 
 .links-lower-h3 {
@@ -193,7 +171,7 @@ img:hover {
 
 .links-lower-button {
     border: none;
-    background-color: #23a6f0;
+    background-color: rgb(35, 166, 240);
     color: white;
 }
 
@@ -202,14 +180,8 @@ img:hover {
 }
 
 .links-lower-right {
-    border-radius: 10% 10% 10% 10% / 100% 100% 100% 100%;
+    border-radius: 10% / 100%;
 }
-
-
-/*links*/
-
-
-/*pricing*/
 
 .pricing-header-h2 {
     font-size: 2.5vw;
@@ -218,13 +190,14 @@ img:hover {
 }
 
 .pricing-header-p {
-    font-size: 0.9vw;
+    /* font-size: 0.9vw; */
     text-align: center;
     font-weight: bold;
+    /* width: 30%; */
 }
 
 .pricing-body-item-side {
-    border: 1px solid #23a6f0;
+    border: 1px solid rgb(35, 166, 240);
 }
 
 .pricing-lower-side-h3 {
@@ -253,18 +226,18 @@ img:hover {
 
 .price-h2 {
     font-size: 2.5vw;
-    color: #23a6f0;
+    color: rgb(35, 166, 240);
 }
 
 .price-dollar {
     font-size: 1vw;
-    color: #23a6f0;
+    color: rgb(35, 166, 240);
     font-weight: bolder;
 }
 
 .time {
     font-size: 1vw;
-    color: #23a6f0;
+    color: rgb(35, 166, 240);
     font-weight: bolder;
 }
 
@@ -275,7 +248,7 @@ img:hover {
 
 .pricing-button {
     border: none;
-    background-color: #23a6f0;
+    background-color: rgb(35, 166, 240);
     color: white;
     font-size: 0.9vw;
     font-weight: bold;
@@ -287,19 +260,12 @@ img:hover {
 }
 
 .pricing-body-item-middle {
-    background-color: #252B42;
+    background-color: rgb(37, 43, 66);
     color: white;
-    ;
 }
 
-
-/*pricing*/
-
-
-/*contact*/
-
 .contact-upper {
-    background-color: #252B42;
+    background-color: rgb(37, 43, 66);
     color: white;
 }
 
@@ -310,28 +276,25 @@ img:hover {
 }
 
 .contact-upper-left-p {
-    font-size: 0.9vw;
+    /* font-size: 0.9vw; */
     font-weight: bold;
     color: white;
 }
 
-.contact-lower {
-    /* background-color: white; */
-}
+.contact-lower {}
 
 .contact-lower-container {
     width: 50%;
-    margin: auto;
+    margin: -20% auto auto;
     background-image: url("../images/contact-lower-image.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 10% 5%;
     z-index: 5;
-    margin-top: -20%;
 }
 
 .contact-lower-container::after {
-    content: '';
+    content: "";
     display: block;
     clear: both;
 }
@@ -351,7 +314,7 @@ img:hover {
 }
 
 .contact-text {
-    background-color: #F9F9F9;
+    background-color: rgb(249, 249, 249);
 }
 
 .contact-form-tag {
@@ -360,7 +323,7 @@ img:hover {
 }
 
 .contact-button {
-    background-color: #23a6f0;
+    background-color: rgb(35, 166, 240);
     font-weight: bold;
     color: white;
 }
@@ -369,14 +332,8 @@ img:hover {
     color: rgb(204, 204, 204);
 }
 
-
-/*contact*/
-
-
-/*footer*/
-
 .footer-upper {
-    background-color: #FAFAFA;
+    background-color: rgb(250, 250, 250);
     padding-top: 0%;
     padding-bottom: 0%;
 }
@@ -389,13 +346,13 @@ img:hover {
 }
 
 .footer-upper-p {
-    font-size: 0.9vw;
+    font-size: 1.25vw;
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
 .footer-upper-button {
-    background-color: #23a6f0;
+    background-color: rgb(35, 166, 240);
     border: none;
     color: white;
     margin-top: 5%;
@@ -416,45 +373,35 @@ img:hover {
 }
 
 .footer-col-header {
-    font-size: 1vw;
+    font-size: 1.5vw;
     font-weight: bolder;
 }
 
 .footer-col-li {
-    font-size: 0.9vw;
+    font-size: 1.25vw;
     font-weight: 200;
 }
 
 .footer-lower {
-    background-color: #FAFAFA;
+    background-color: rgb(250, 250, 250);
 }
 
 .footer-lower-left-p {
     font-weight: bold;
 }
 
-
-/*footer*/
-
-
-/*price*/
-
 .price-h2 {
     text-align: center;
 }
 
-
-/*price*/
-
-
-/*text*/
-
 * {
-    font-family: 'Mulish', sans-serif;
-    font-family: 'Source Sans 3', sans-serif;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Montserrat, sans-serif;
 }
 
 a {
     color: white;
+}
+
+p {
+    font-size: 1.25vw;
 }

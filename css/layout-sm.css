@@ -1,71 +1,87 @@
-.clearfix::after{
-content: '';
-display: block;
-clear: both;
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
 }
-.main{
+
+.main {
     min-width: 300px;
 }
+
+
 /* header */
-.header{
+
+.header {
     width: 100%;
-    padding-bottom:10%;
+    padding-bottom: 10%;
 }
 
-.nav-bar-brand{
-    margin-top:0;
-    padding-top:0;
+.nav-bar-brand {
+    margin-top: 0;
+    padding-top: 0;
     font-weight: 800;
-    float:left;
-    margin-left:5%;
+    float: left;
+    margin-left: 5%;
 }
-.small-nav-icons{
-    float:right;
-    margin-right:5%;
 
+.small-nav-icons {
+    float: right;
+    margin-right: 5%;
 }
-.small-nav-icons img{
+
+.small-nav-icons img {
     display: inline-block;
-    margin-left:5vw;
+    margin-left: 5vw;
 }
-.header-nav-bar{
-    width:100%;
+
+.header-nav-bar {
+    width: 100%;
     padding-top: 5%;
 }
-.header-nav-bar ul{
+
+.header-nav-bar ul {
     text-align: center;
 }
-.nav-bar-items{
-    padding:5% 0;
+
+.nav-bar-items {
+    padding: 5% 0;
 }
-.nav-bar-left{
-    width:50%;
-    margin:0 auto;
+
+.nav-bar-left {
+    width: 50%;
+    margin: 0 auto;
     padding: 5% 0 5% 0;
     clear: both;
 }
-.nav-bar-right{
-    display:none;
+
+.nav-bar-right {
+    display: none;
 }
-.header-center{
+
+.header-center {
     width: 60%;
     margin: auto;
 }
-.center-headline{
+
+.center-headline {
     margin-top: 10%;
     margin-bottom: 10%;
 }
-.header-center-text{
+
+.header-center-text {
     margin-top: 10%;
     margin-bottom: 10%;
     margin-left: auto;
     margin-right: auto;
 }
-.header-center-buttons{
-    margin-left:auto;
+
+.header-center-buttons {
+    margin-left: auto;
     margin-right: auto;
 }
-.header-center-button-left, .header-center-button-right{
+
+.header-center-button-left,
+.header-center-button-right {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -74,287 +90,365 @@ clear: both;
     padding: 2% 10% 2% 10%;
     border-radius: 25% 25% 25% 25% / 100% 100% 100% 100%;
 }
-.lower-header-container{
-    padding-top:5%;
-    padding-bottom:5%;
-}
-.header-lower-item{
-    display: block;
-    width: 60%;
-    margin:auto;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    padding:10%;
-}
-.header-lower-h3{
-    margin-top:5%;
-    margin-bottom:5%;
+
+.lower-header-container {
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
-/* header */
-/*features*/
-.features-item{
+.header-lower-item {
     display: block;
-    margin:0 auto;
-    width:50%;
-    
+    width: 60%;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 10%;
 }
-.feature-item-h5{
-    margin:5%;
+
+.header-lower-h3 {
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
-.feature-item-p{
-    margin:5%;
+
+
+/* header */
+
+
+/*features*/
+
+.features-item {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
 }
-.features-container{
+
+.feature-item-h5 {
+    margin: 5%;
+}
+
+.feature-item-p {
+    margin: 5%;
+}
+
+.features-container {
     padding-top: 15%;
     padding-bottom: 15%;
 }
-.feature-item-image{
+
+.feature-item-image {
     display: block;
-    margin:10% auto 10% auto;
+    margin: 10% auto 10% auto;
 }
+
+
 /*features*/
+
+
 /*testimonial*/
-.testimonials-container{
-    width:70%;
-    margin:10% auto 0% auto;
+
+.testimonials-container {
+    width: 70%;
+    margin: 10% auto 0% auto;
     padding-top: 10%;
     padding-bottom: 10%;
 }
-.testimonial-body{
+
+.testimonial-body {
     margin: 15% auto 15% auto;
 }
-.testimonial-body-item{
+
+.testimonial-body-item {
     padding: 10%;
-    margin:10% auto;
-}
-.testimonial-image{
-    display:block;
-    margin:0 auto 10% auto;
-}
-.testimonial-body-text{
     margin: 10% auto;
 }
-.testimonial-image{
+
+.testimonial-image {
     display: block;
-    margin-left:auto;
-    margin-right:auto;
-    border-radius:100%;
-
-}
-.testimonial-stars{
-    width:fit-content;
-    margin:auto;
-    margin-top:10%;
+    margin: 0 auto 10% auto;
 }
 
+.testimonial-body-text {
+    margin: 10% auto;
+}
+
+.testimonial-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+}
+
+.testimonial-stars {
+    width: fit-content;
+    margin: auto;
+    margin-top: 10%;
+}
 
 
 /*testimonial*/
+
+
 /*links*/
-.links{
-    padding: 10% 0;
+
+.links {
+    padding: 0% 0;
 }
-.links-image{
-display: block;
-margin:10% auto;
+
+.links-image {
+    display: block;
+    margin: 0% auto;
+    padding-bottom: 10%;
 }
-.links-lower-container{
-    width:80%;
-    margin:0 auto;
+
+.links-lower-container {
+    width: 80%;
+    margin: 0 auto;
     padding-top: 5%;
     padding-bottom: 5%;
-    
 }
-.links-lower-left{
-    margin-bottom:10%;
+
+.links-lower-left {
+    margin-bottom: 10%;
     margin-left: auto;
     margin-right: auto;
 }
-.links-lower-text{
-    float: left;
-    padding-top: 5%;
-    padding-bottom: 5%; 
-    border: none;
-}
-.links-lower-button{
+
+.links-lower-text {
     float: left;
     padding-top: 5%;
     padding-bottom: 5%;
-
+    border: none;
 }
-.links-lower-right{
+
+.links-lower-button {
+    float: left;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.links-lower-right {
     width: fit-content;
     margin: 0 auto;
 }
+
+
 /*links*/
+
+
 /*pricing*/
-.pricing-header{
+
+.pricing-header {
     width: 50%;
     margin: auto;
-    margin-top:10%;
-    margin-bottom:10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
-.pricing-header-h2{
+
+.pricing-header-h2 {
     margin: 5%;
 }
-.pricing-body-container{
+
+.pricing-body-container {
     width: 75%;
-    margin:auto;
+    margin: auto;
 }
-.pricing-body-container::after{
+
+.pricing-body-container::after {
     content: '';
     display: block;
     clear: both;
 }
-.pricing-body-item-side,.pricing-body-item-middle{
+
+.pricing-body-item-side,
+.pricing-body-item-middle {
     display: block;
     border-radius: 2%;
-    margin:auto;
-    margin-top:5%;
-    margin-bottom:5%;
-    padding-top:5%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-top: 5%;
 }
-.price-h2,.price-right{
+
+.price-h2,
+.price-right {
     display: inline-block;
 }
-.price{
+
+.price {
     width: fit-content;
-    margin:auto;
-    margin-top:5%;
-    margin-bottom:5%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
-.offers{
+
+.offers {
     width: fit-content;
     margin: auto;
 }
-.offer-item{
+
+.offer-item {
     padding-top: 5%;
     padding-bottom: 10%;
 }
-.pricing-body-item-middle{
-    padding-top:7%;
+
+.pricing-body-item-middle {
+    padding-top: 7%;
 }
-.pricing-button{
-    width:80%;
+
+.pricing-button {
+    width: 80%;
     margin-left: 10%;
-    padding-top:5%;
-    padding-bottom:5%;
-    margin-top:10%;
-    margin-bottom:10% ;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
-.offers-h6{
+
+.offers-h6 {
     display: inline-block;
     width: fit-content;
 }
-.offer-tick{
+
+.offer-tick {
     display: inline-block;
     border-radius: 100%;
     background-color: cadetblue;
 }
-.offer-tick-lower{
+
+.offer-tick-lower {
     display: inline-block;
     border-radius: 100%;
     background-color: gray;
 }
-.offer-item{
+
+.offer-item {
     margin: auto;
 }
-.offers{
-    margin:auto;
+
+.offers {
+    margin: auto;
 }
+
+
 /*pricing*/
+
+
 /*contact*/
-.contact-upper{
-padding:10%;
-padding-bottom:1%;
+
+.contact-upper {
+    padding: 10%;
+    padding-bottom: 1%;
 }
-.contact-upper-left-p{
-    margin:5% auto;
+
+.contact-upper-left-p {
+    margin: 5% auto;
 }
-.contact-upper-right{
-    margin-top:30%;
-    margin-bottom:30%;
+
+.contact-upper-right {
+    margin-top: 30%;
+    margin-bottom: 30%;
 }
-.contact-lower{
+
+.contact-lower {
     padding-top: 50%;
-  }
-  .contact-lower-container{
+}
+
+.contact-lower-container {
     padding: 10% 10%;
-  }
-  .contact-form-h3{
+}
+
+.contact-form-h3 {
     width: 50%;
     display: block;
     margin: auto;
-  }
-  .contact-form-header{
-      margin-top:10%;
-      margin-bottom:10%;
-  }
-  .contact-button{
-      display: block;
-  }
-  .contact-form{
-      width:100%
-  }
-  .contact-text{
-      width: 100%;
-      margin:5% auto;
-      padding-top:5%;
-      padding-bottom: 5%;
-      border: 1px solid #BDBDBD;
-      border-radius: 2%;
-  }
-  .contact-button{
-      width:100%;
-      padding-top:5%;
-      padding-bottom:5%;
-      border:none;
-      border-radius: 2%;
+}
 
-  }
+.contact-form-header {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.contact-button {
+    display: block;
+}
+
+.contact-form {
+    width: 100%
+}
+
+.contact-text {
+    width: 100%;
+    margin: 5% auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: 1px solid #BDBDBD;
+    border-radius: 2%;
+}
+
+.contact-button {
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: none;
+    border-radius: 2%;
+}
+
+
 /*contact*/
+
+
 /*footer*/
-.footer-upper-container{
+
+.footer-upper-container {
     width: 60%;
-    margin :0% auto 10% auto;
-    padding-top:10%;
-    padding-bottom:10%;
+    margin: 0% auto 10% auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
-.footer-upper-button{
-    margin-top:10%;
-    margin-bottom:10%;
-    width:66%;
-    padding-top:5%;
-    padding-bottom:5%;
+
+.footer-upper-button {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 66%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
-.footer-middle-container{
-    width:60%;
-    margin:0 auto;
-}
-.footer-col-header{
-margin-top:10%;
-margin-bottom:10%;
-}
-.footer-col-li img{
-    display: inline-block;
-    padding-top:5%;
-}
-.footer-col-li div{
-    display: inline-block;
-    margin-left:5%;
-}
-.footer-lower-container{
+
+.footer-middle-container {
     width: 60%;
     margin: 0 auto;
-    padding-top:5%;
-    padding-bottom:10%;
 }
-.footer-lower-left-p{
-    margin-top:10%;
-    margin-bottom:10%;
+
+.footer-col-header {
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
-.footer-lower-icons{
-    margin-right:5%;
+
+.footer-col-li img {
+    display: inline-block;
+    padding-top: 5%;
 }
+
+.footer-col-li div {
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.footer-lower-container {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.footer-lower-left-p {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.footer-lower-icons {
+    margin-right: 5%;
+}
+
+
 /*footer*/
